@@ -147,12 +147,12 @@ t = time()
 _train_g = theano.function([X, Z, Y], cost, updates=g_updates)
 _train_d = theano.function([X, Z, Y], cost, updates=d_updates)
 _gen = theano.function([Z, Y], gX)
-print '%.2f seconds to compile theano functions'%(time()-t)
+print '%.2f seconds to compile theano functions' % (time()-t)
 
 tr_idxs = np.arange(len(trX))
 trX_vis = np.asarray([[trX[i] for i in py_rng.sample(tr_idxs[trY == y], 20)] for y in range(10)]).reshape(200, -1)
 trX_vis = inverse_transform(transform(trX_vis))
-grayscale_grid_vis(trX_vis, (10, 20), 'samples/%s_etl_test.png'%desc)
+grayscale_grid_vis(trX_vis, (10, 20), 'samples/%s_etl_test.png' % desc)
 
 sample_zmb = floatX(np_rng.uniform(-1., 1., size=(200, nz)))
 sample_ymb = floatX(OneHot(np.asarray([[i for _ in range(20)] for i in range(10)]).flatten(), ny))
@@ -177,7 +177,7 @@ def gen_samples(n, nbatch=128):
     labels.append(np.argmax(ymb, axis=1))
     return np.concatenate(samples, axis=0), np.concatenate(labels, axis=0)
 
-f_log = open('logs/%s.ndjson'%desc, 'wb')
+f_log = open('logs/%s.ndjson' % desc, 'wb')
 log_fields = [
     'n_epochs', 
     'n_updates', 
@@ -223,8 +223,11 @@ for epoch in range(1, niter+niter_decay+1):
         va_nnd_1k = nnd_score(gX[:1000], vaX, metric='euclidean')
         va_nnd_10k = nnd_score(gX[:10000], vaX, metric='euclidean')
         va_nnd_100k = nnd_score(gX[:100000], vaX, metric='euclidean')
-        log = [n_epochs, n_updates, n_examples, time()-t, va_nnc_acc_1k, va_nnc_acc_10k, va_nnc_acc_100k, va_nnd_1k, va_nnd_10k, va_nnd_100k, g_cost, d_cost]
-        print '%.0f %.2f %.2f %.2f %.4f %.4f %.4f %.4f %.4f'%(epoch, va_nnc_acc_1k, va_nnc_acc_10k, va_nnc_acc_100k, va_nnd_1k, va_nnd_10k, va_nnd_100k, g_cost, d_cost)
+        log = [n_epochs, n_updates, n_examples, time()-t, va_nnc_acc_1k,
+               va_nnc_acc_10k, va_nnc_acc_100k, va_nnd_1k, va_nnd_10k, va_nnd_100k, g_cost, d_cost]
+        print '%.0f %.2f %.2f %.2f %.4f %.4f %.4f %.4f %.4f' \
+              % (epoch, va_nnc_acc_1k, va_nnc_acc_10k, va_nnc_acc_100k,
+                 va_nnd_1k, va_nnd_10k, va_nnd_100k, g_cost, d_cost)
         f_log.write(json.dumps(dict(zip(log_fields, log)))+'\n')
         f_log.flush()
 
@@ -234,5 +237,5 @@ for epoch in range(1, niter+niter_decay+1):
     if n_epochs > niter:
         lrt.set_value(floatX(lrt.get_value() - lr/niter_decay))
     if n_epochs in [1, 5, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 150, 200]:
-        joblib.dump([p.get_value() for p in gen_params], 'models/%s/%d_gen_params.jl'%(desc, n_epochs))
-        joblib.dump([p.get_value() for p in discrim_params], 'models/%s/%d_discrim_params.jl'%(desc, n_epochs))
+        joblib.dump([p.get_value() for p in gen_params], 'models/%s/%d_gen_params.jl' % (desc, n_epochs))
+        joblib.dump([p.get_value() for p in discrim_params], 'models/%s/%d_discrim_params.jl' % (desc, n_epochs))
