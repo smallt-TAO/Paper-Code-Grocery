@@ -1,15 +1,6 @@
-import sys
-sys.path.append('..')
-
 import numpy as np
-import os
-from time import time
-from collections import Counter
-import random
-from matplotlib import pyplot as plt
 
 from lib.data_utils import shuffle
-from lib.config import data_dir
 
 
 def mnist():
