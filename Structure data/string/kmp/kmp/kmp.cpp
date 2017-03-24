@@ -25,3 +25,25 @@ Status StrAssign(String T, char *chars) {
 	T[0] = strlen(chars);
 	return OK;
 }
+
+Status ClearString(String S) {
+	S[0] = 0;
+	return OK;
+}
+
+void StrPrint(String S) {
+	for (int i = 1; i <= S[0]; i++)
+		printf("%d ", S[i]);
+	printf("\n");
+}
+
+void NextPrint(int next[], int length) {
+	for (int i = 1; i <= length; i++)
+		printf("%d ", next[i]);
+	printf("\n");
+}
+
+int StrLength(String S) {
+	return S[0];
+}
+
