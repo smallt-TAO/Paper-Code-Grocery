@@ -96,6 +96,71 @@ Status Assign(SqBiTree T, Position e, TElemType value) {
 	return OK;
 }
 
+TElemType Parent(SqBiTree T, TElemType e) {
+	if (T[0] == Nil)
+		return Nil;
+	for (int i = 1; i < MAX_TREE_SIZE; i++) {
+		if (T[i] == e)
+			return T[(i + 1) / 2 - 1];
+	}
+	return Nil;
+}
+
+TElemType LeftChild(SqBiTree T, TElemType e) {
+	if (T[0] == Nil)
+		return Nil;
+	for (int i = 0; i < MAX_TREE_SIZE; i++) {
+		if (T[i] == e)
+			return T[i * 2 + 1];
+	}
+	return Nil;
+}
+
+TElemType RightChild(SqBiTree T, TElemType e) {
+	if (T[0] == Nil)
+		return Nil;
+	for (int i = 0; i < MAX_TREE_SIZE; i++) {
+		if (T[i] == e)
+			return T[i * 2 + 2];
+	}
+	return Nil;
+}
+
+TElemType LeftSibling(SqBiTree T, TElemType e) {
+	if (T[0] == Nil)
+		return Nil;
+	for (int i = 1; i < MAX_TREE_SIZE; i++) {
+		if (T[i] == e && i % 2 == 0)
+			return T[i - 1];
+	}
+	return Nil;
+}
+
+TElemType RightSibling(SqBiTree T, TElemType e) {
+	if (T[0] == Nil)
+		return Nil;
+	for (int i = 1; i < MAX_TREE_SIZE; i++) {
+		if (T[i] == e && i % 2)
+			return T[i + 1];
+	}
+	return Nil;
+}
+
+void PreTraverse(SqBiTree T, int e) {
+	visit(T[e]);
+	if (T[2 * e + 1] != Nil)
+		PreTraverse(T, 2 * e + 1);
+	if (T[2 * e + 2] != Nil)
+		PreTraverse(T, 2 * e + 2);
+}
+
+Status PreOrderTraverse(SqBiTree T) {
+	if (!BiTreeEmpty(T))
+		PreTraverse(T, 0);
+	printf("\n");
+	return OK;
+}
+
 int main()
 {
 	Status i;
