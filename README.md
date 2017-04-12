@@ -7,6 +7,9 @@ http://www.leiphone.com/news/201610/SqlyIRXlACv8UsId.html?utm_source=tuicool&utm
 http://www.jianshu.com/nb/8413272
 
 
+http://blog.csdn.net/langb2014/article/details/53036216
+
+
 \subsection{[Paper] Perceptual Losses for Real-Time Style Transfer and Super-Resolution}
 In engineering practice, it is far from enough to realize the code.
 
