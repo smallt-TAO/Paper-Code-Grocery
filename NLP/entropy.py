@@ -12,7 +12,7 @@ def deal_file(file1):
 
     text1seg = []
     for i in range(10):
-        file1 = 'G:\\code_Python\\Entropy1\\ebook\\{}.txt'.format(str(i + 1))
+        file1 = '.\\ebook\\{}.txt'.format(str(i + 1))
         print str(file1)
         input_file = codecs.open(file1, mode='r', encoding='utf-8')
 
@@ -101,9 +101,10 @@ def calculate_entropy(file1, file2, file3):
 
 
 if __name__ == '__main__':
-    file_1 = 'G:\\code_Python\\Entropy1\\seg12.txt'
+    file_1 = 'seg12.txt'
     deal_file(file_1)
-    file_1 = 'G:\\code_Python\\Entropy1\\seg12.txt'
-    file_2 = 'G:\\code_Python\\Entropy1\\tmp.txt'
-    file_3 = 'G:\\code_Python\\Entropy1\\word.txt'
+    file_1 = 'seg12.txt'
+    file_2 = 'tmp.txt'
+    file_3 = 'word.txt'
     calculate_entropy(file_1, file_2, file_3)
+
