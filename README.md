@@ -19,3 +19,6 @@ http://blog.csdn.net/lenbow/article/details/52218551
 
 
 http://nbviewer.jupyter.org/gist/boskaiolo/cc3e1341f59bfbd02726
+
+
+https://github.com/cython/cython/wiki/CythonExtensionsOnWindows
