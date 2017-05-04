@@ -22,3 +22,6 @@ http://nbviewer.jupyter.org/gist/boskaiolo/cc3e1341f59bfbd02726
 
 
 https://github.com/cython/cython/wiki/CythonExtensionsOnWindows
+
+
+https://handong1587.github.io/deep_learning/2015/10/09/object-detection.html
