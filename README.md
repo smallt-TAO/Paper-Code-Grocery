@@ -12,7 +12,7 @@ http://blog.csdn.net/yexiaogu1104/article/details/69055802
 # Tensorflow一些常用基本概念与函数（4）
 http://blog.csdn.net/lenbow/article/details/52218551
 
-
+# gensim的LDA
 http://nbviewer.jupyter.org/gist/boskaiolo/cc3e1341f59bfbd02726
 
 # cython的window技术
@@ -20,3 +20,6 @@ https://github.com/cython/cython/wiki/CythonExtensionsOnWindows
 
 # 目标检测方面的技术发展。
 https://handong1587.github.io/deep_learning/2015/10/09/object-detection.html
+
+# 你应该知道的9篇深度学习论文（CNNs 理解）
+http://blog.csdn.net/feimengjuan/article/details/69666981
