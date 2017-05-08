@@ -23,3 +23,6 @@ https://handong1587.github.io/deep_learning/2015/10/09/object-detection.html
 
 # 你应该知道的9篇深度学习论文（CNNs 理解）
 http://blog.csdn.net/feimengjuan/article/details/69666981
+
+# cs231n学习笔记-CNN-目标检测、定位、分割
+http://blog.csdn.net/myarrow/article/details/51878004
