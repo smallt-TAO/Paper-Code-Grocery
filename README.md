@@ -26,3 +26,6 @@ http://blog.csdn.net/feimengjuan/article/details/69666981
 
 # cs231n学习笔记-CNN-目标检测、定位、分割
 http://blog.csdn.net/myarrow/article/details/51878004
+
+# GAN论文汇总，包含code
+https://github.com/zhangqianhui/AdversarialNetsPapers
