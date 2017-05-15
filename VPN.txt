@@ -1,0 +1,31 @@
+堡垒机IP： 	jps.jd.com
+SSH连接端口： 	80
+account: lvlintao
+passwd: goodluckwithyou
+
+
+10.187.141.102
+
+172.20.151.20
+
+172.28.217.133
+
+172.28.160.164
+
+
+
+10.191.168.162
+
+0okm(IJN
+
+
+admin
+0okm(IJN
+
+cd 
+/export/zhaoziqiang/anaconda
+
+Admin ODJiMDY0MDUyMjZkODViZjU0MTEzOGY4
+
+
+Root M2FiNzE4MDJlYWM4YjZiMzg2YjZhYWZk
