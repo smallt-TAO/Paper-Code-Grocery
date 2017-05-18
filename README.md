@@ -34,4 +34,7 @@ https://github.com/zhangqianhui/AdversarialNetsPapers
 http://blog.csdn.net/u013087984/article/details/52023671
 
 # 图像检索：再叙ANN Search以及图像检索相关
-http://yongyuan.name/blog/ann-search.html
+http://yongyuan.name/blog/ann-search.html 
+
+# 图像检索的相关论文
+https://github.com/willard-yuan/awesome-cbir-papers
