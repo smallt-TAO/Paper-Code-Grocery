@@ -39,5 +39,7 @@ http://yongyuan.name/blog/ann-search.html
 # 图像检索的相关论文
 https://github.com/willard-yuan/awesome-cbir-papers
 
+https://github.com/deepinsight/deepinsight.github.io/blob/06a2c1986534abf449a717a47a047a4da740f067/_posts/deep_learning/2017-05-08-retrieval.md
+
 # Deep哈希算法介绍
 https://zhuanlan.zhihu.com/p/21396173
