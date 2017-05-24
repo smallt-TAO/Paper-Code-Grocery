@@ -1,7 +1,4 @@
-堡垒机IP： 	jps.jd.com
-SSH连接端口： 	80
-account: lvlintao
-passwd: goodluckwithyou
+
 
 
 10.187.141.102
