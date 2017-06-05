@@ -43,3 +43,9 @@ https://github.com/deepinsight/deepinsight.github.io/blob/06a2c1986534abf449a717
 
 # Deep哈希算法介绍
 https://zhuanlan.zhihu.com/p/21396173
+
+# 用 TensorFlow 压缩神经网络
+http://fjdu.github.io/machine/learning/2016/07/07/quantize-neural-networks-with-tensorflow.html
+
+# 视频描述
+www.cs.utexas.edu/~vsub/
