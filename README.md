@@ -46,6 +46,7 @@ https://zhuanlan.zhihu.com/p/21396173
 
 # 用 TensorFlow 压缩神经网络
 http://fjdu.github.io/machine/learning/2016/07/07/quantize-neural-networks-with-tensorflow.html
+http://blog.csdn.net/linmingan/article/details/51008830
 
 # 视频描述
 www.cs.utexas.edu/~vsub/
