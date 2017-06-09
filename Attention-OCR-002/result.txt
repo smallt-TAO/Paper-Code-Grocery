@@ -1,0 +1,1283 @@
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcublas.so.8.0 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcudnn.so.5 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcufft.so.8.0 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcurand.so.8.0 locally
+***********************************************
+{u'\u8000': 397, u'\u8302': 418, u'\u6000': 1123, u'\u8c08': 997, u'\u4f0a': 1391, u'\u968f': 146, u'\u6302': 933, u'\u8116': 982, u'\u6599': 719, u'\u9020': 1259, u'\u822c': 50, u'\u86af': 1059, u'\u6b32': 1314, u'\u4e34': 599, u'\u7136': 67, u'\u5438': 237, u'\u573a': 684, u'\u5bbd': 979, u'\u53cd': 96, u'\u59d1': 1137, u'\u6458': 1096, u'\u8bdd': 85, u'\u77e5': 176, u'\u9664': 561, u'\u5de9': 1004, u'\u60eb': 1055, u'\u7f6a': 1331, u'\u626c': 891, u'\u8870': 559, u'\u5176': 172, u'\u95f9': 1361, u'\ufeff': 0, u'\u6101': 1393, u'\u5f15': 238, u'\u5e94': 140, u'\u6217': 1093, u'\u5047': 608, u'\u5faa': 437, u'\u62ac': 853, u'\u662f': 11, u'\u8bb2': 1252, u'\u7237': 1416, u'\u89c6': 847, u'\u5f55': 557, u'\u6559': 889, u'\u4e5f': 202, u'\u666f': 33, u'\u8bf2': 890, u'\u6ef4': 1288, u'\u987b': 518, u'\u57fa': 1382, u'\u5b7d': 1332, u'\u5dfe': 1308, u'\u6c89': 443, u'\u4e0a': 25, u'\u540e': 145, u'\u5e95': 883, u'\u67af': 1294, u'\u8db3': 1357, u'\u4f34': 621, u'\u73b7': 315, u'\u79bb': 309, u'\u9b3c': 623, u'\u5c3e': 793, u'\u7f69': 832, u'\u7ed5': 978, u'\u665a': 474, u'\u8fdf': 1133, u'\u7262': 1108, u'\u67ef': 1002, u'\u53f7': 901, u'\u5076': 1251, u'\u79fb': 1018, u'\u8001': 409, u'\u8180': 272, u'\u8282': 575, u'\u6d88': 1072, u'\u538c': 809, u'\u4f1f': 826, u'\u7eaa': 931, u'\u672f': 953, u'\u5439': 1213, u'\u7a3d': 1317, u'\u7cbe': 1051, u'\u7fc5': 530, u'\u6c49': 1090, u'\u4eca': 1273, u'\u524d': 330, u'\u53cc': 382, u'\u574f': 251, u'\u5851': 958, u'\u59d0': 1039, u'\u51e0': 268, u'\u7eea': 635, u'\u626d': 1065, u'\u5377': 1191, u'\u56fa': 1005, u'\u8102': 63, u'\u8f89': 647, u'\u4e08': 992, u'\u518d': 170, u'\u548f': 1041, u'\u5c14': 1076, u'\u4f1e': 1012, u'\u4eb2': 354, u'\u6c34': 291, u'\u6240': 175, u'\u65c5': 147, u'\u4e48': 469, u'\u91cd': 102, u'\u574e': 650, u'\u7ed3': 594, u'\u5b66': 773, u'\u9afb': 42, u'\u6301': 968, u'\u6280': 1050, u'\u8d8a': 367, u'\u7b11': 914, u'\u8017': 475, u'\u8f9e': 1422, u'\u52a0': 759, u'\u7f29': 1056, u'\u60ac': 834, u'\u6643': 485, u'\u61c2': 131, u'\u8bc6': 246, u'\u514d': 1152, u'\u57ce': 457, u'\u8fde': 581, u'\u7565': 1380, u'\u5f69': 277, u'\u7eff': 934, u'\u5077': 1279, u'\u53f6': 539, u'\u76f8': 9, u'\u597d': 319, u'\u6485': 496, u'\u538b': 543, u'\u508d': 840, u'\u758f': 1058, u'\u9a91': 1199, u'\u6216': 342, u'\u82b1': 49, u'\u83ab': 27, u'\u8d34': 1017, u'\u51b7': 335, u'\u7236': 353, u'\u7738': 1209, u'\u6e34': 943, u'\u53cb': 771, u'\u5b50': 6, u'\u6bdb': 938, u'\u8ddf': 476, u'\u5360': 779, u'\u54e5': 167, u'\u7ee9': 1116, u'\u80ed': 62, u'\u6c13': 1260, u'\u5bfb': 850, u'\u8584': 974, u'\u4e09': 7, u'\u6f88': 1046, u'\u500d': 760, u'\u518c': 1344, u'\u7f13': 854, u'\u5927': 41, u'\u832b': 858, u'\u652f': 529, u'\u66ae': 975, u'\u8bb0': 339, u'\u72b6': 1077, u'\u6241': 1068, u'\u6cca': 217, u'\u904d': 796, u'\u91cc': 275, u'\u5f53': 698, u'\u5c55': 332, u'\u62d6': 1312, u'\u6ede': 1210, u'\u836b': 489, u'\u606d': 110, u'\u6a71': 1120, u'\u5177': 307, u'\u94fa': 649, u'\u6400': 1135, u'\u8702': 509, u'\u9893': 625, u'\u6697': 735, u'\u4f9d': 196, u'\u4e1c': 292, u'\u90a3': 228, u'\u5ea7': 323, u'\u6bb5': 401, u'\u7fbd': 937, u'\u793e': 1386, u'\u65c1': 626, u'\u6742': 631, u'\u4ec7': 807, u'\u89c9': 368, u'\u6848': 718, u'\u5f52': 838, u'\u4fdd': 213, u'\u9762': 53, u'\u53e5': 84, u'\u7ee7': 1149, u'\u6df1': 828, u'\u96f7': 1086, u'\u7cfb': 1228, u'\u5ffd': 380, u'\u5e7c': 94, u'\u8003': 606, u'\u8782': 1162, u'\u6284': 479, u'\u4e07': 548, u'\u6c1b': 1443, u'\u6e9c': 488, u'\u611a': 1224, u'\u5929': 158, u'\u97f3': 902, u'\u8d31': 306, u'\u6574': 708, u'\u8bca': 1407, u'\u574d': 399, u'\u91ce': 338, u'\u5de6': 499, u'\u78e8': 1073, u'\u826f': 106, u'\u9677': 1197, u'\u7f55': 1095, u'\u7c7b': 1248, u'\u7efc': 296, u'\u7a7f': 481, u'\u6500': 985, u'\u5993': 314, u'\u7b14': 879, u'\u6797': 814, u'\u58a9': 1082, u'\u672c': 1250, u'\u4e32': 921, u'\u70b9': 219, u'\u5bbf': 369, u'\u62c5': 706, u'\u8fc7': 266, u'\u8c46': 1392, u'\u59d3': 1379, u'\u7b54': 717, u'\u4f5c': 467, u'\u9662': 726, u'\u5fe7': 668, u'\u7968': 1342, u'\u8d70': 704, u'\u8e72': 1139, u'\u6401': 946, u'\u8682': 514, u'\u5c11': 248, u'\u6717': 259, u'\u629a': 1436, u'\u4e1d': 865, u'\u99a8': 1337, u'\u80ae': 312, u'\u8eb2': 1189, u'\u9e3d': 907, u'\u964d': 598, u'\u90ce': 1038, u'\u8d5b': 1003, u'\u4e5d': 804, u'\u8fdc': 359, u'\u56e2': 1057, u'\u5265': 384, u'\u53e4': 43, u'\u8bf4': 86, u'\u5777': 651, u'\u74f6': 1070, u'\u5e7d': 415, u'\u6781': 710, u'\u6f06': 37, u'\u540c': 153, u'\u4e9b': 478, u'\u811a': 664, u'\u52a3': 1229, u'\u5522': 1350, u'\u592a': 179, u'\u65ad': 148, u'\u642c': 363, u'\u80af': 1174, u'\u4e30': 34, u'\u9ebb': 940, u'\u4f46': 558, u'\u8bc9': 1285, u'\u50cf': 299, u'\u6756': 1372, u'\u6258': 1421, u'\u65ed': 1367, u'\u846c': 1366, u'\u60ef': 1234, u'\u4e70': 944, u'\u74f7': 1069, u'\u53f9': 1042, u'\u8680': 385, u'\u6084': 846, u'\u548c': 113, u'\u900f': 98, u'\u5915': 1301, u'\u80ef': 981, u'\u4e1b': 856, u'\u602f': 998, u'\u6db2': 1289, u'\u964b': 1227, u'\u7f51': 1092, u'\u8457': 1125, u'\u7761': 842, u'\u56e0': 184, u'\u5165': 429, u'\u5b69': 129, u'\u866b': 508, u'\u84ec': 939, u'\u606f': 556, u'\u5e7b': 824, u'\u51fa': 92, u'\u987f': 1433, u'\u8681': 515, u'\u6700': 19, u'\u718f': 5, u'\u6597': 965, u'\u8f9b': 201, u'\u7720': 754, u'\u7422': 640, u'\u5e26': 352, u'\u582a': 1218, u'\u64ad': 687, u'\u4f30': 1025, u'\u9636': 925, u'\u72b9': 714, u'\u6740': 1322, u'\u60c5': 273, u'\u57cb': 1107, u'\u54cd': 552, u'\u754c': 472, u'\u51cf': 1049, u'\u9ed1': 38, u'\u8fdb': 254, u'\u805a': 456, u'\u59bb': 984, u'\u5760': 546, u'\u53e3': 454, u'\u5462': 766, u'\u5de7': 1150, u'\u82e6': 461, u'\u656c': 1423, u'\u7b3c': 1144, u'\u8f70': 545, u'\u68f5': 569, u'\u95f7': 702, u'\u7ffb': 894, u'\u59ff': 240, u'\u8005': 343, u'\u4e86': 226, u'\u770b': 24, u'\u540d': 782, u'\u809a': 1088, u'\u7d27': 1300, u'\u5ea6': 566, u'\u7537': 174, u'\u5c3d': 208, u'\u62cd': 501, u'\u6beb': 866, u'\u4f5b': 373, u'\u60da': 845, u'\u74e2': 522, u'\u5065': 1232, u'\u4e71': 633, u'\u8ff0': 297, u'\u96f6': 194, u'\u7279': 47, u'\u53f8': 1233, u'\u5f7b': 829, u'\u96fe': 511, u'\u8981': 205, u'\u9010': 876, u'\u9614': 947, u'\u4f1a': 577, u'\u7126': 896, u'\u88ab': 236, u'\u50bb': 1303, u'\u5f3a': 289, u'\u89c1': 413, u'\u8fc5': 1085, u'\u85c9': 873, u'\u7ecf': 198, u'\u51d1': 265, u'\u5591': 1214, u'\u5468': 364, u'\u8bed': 1334, u'\u6d6e': 388, u'\u6070': 1134, u'\u6674': 1177, u'\u50fb': 707, u'\u8c03': 290, u'\u9a8c': 1442, u'\u5413': 1185, u'\u9694': 1179, u'\u829c': 334, u'\u661f': 1212, u'\u5f25': 442, u'\u7ea4': 1427, u'\u8131': 308, u'\u6735': 510, u'\u66b4': 673, u'\u963f': 1001, u'\u75be': 521, u'\u5acc': 1411, u'\u62dc': 1176, u'\u5267': 1243, u'\u54e8': 908, u'\u886b': 1014, u'\u66f4': 242, u'\u72fc': 872, u'\u6001': 256, u'\u6006': 1354, u'\u6c99': 1246, u'\u4e1a': 304, u'\u7528': 878, u'\u6734': 215, u'\u8dc3': 301, u'\u4ec5': 127, u'\u7eb7': 632, u'\u6548': 1320, u'\u59cb': 258, u'\u55d3': 1053, u'\u96d5': 406, u'\u8bd7': 957, u'\u966a': 1270, u'\u8b6c': 645, u'\u8170': 1067, u'\u8272': 61, u'\u9876': 1398, u'\u51fb': 757, u'\u6e05': 160, u'\u6307': 820, u'\u8086': 639, u'\u7a0d': 988, u'\u5b8c': 618, u'\u5f0f': 586, u'\u671f': 609, u'\u649e': 799, u'\u7fa4': 656, u'\u4e45': 450, u'\u8fc4': 1272, u'\u594b': 1221, u'\u5bcc': 990, u'\u6eda': 540, u'\u5367': 686, u'\u70e6': 525, u'\u95e8': 394, u'\u96ea': 663, u'\u8f6f': 1266, u'\u53fc': 1280, u'\u8a00': 724, u'\u780c': 405, u'\u8f99': 897, u'\u7ba1': 209, u'\u7a20': 1147, u'\u5c24': 1385, u'\u5e38': 204, u'\u503c': 1315, u'\u54bf': 1153, u'\u8bc1': 593, u'\u7acb': 262, u'\u79cd': 139, u'\u53d1': 40, u'\u9152': 1071, u'\u8fd9': 138, u'\u62db': 1114, u'\u5de5': 466, u'\u70e7': 1370, u'\u5668': 900, u'\u886c': 1013, u'\u6cef': 164, u'\u8f6e': 427, u'\u8270': 200, u'\u5e78': 612, u'\u707c': 675, u'\u4e03': 29, u'\u6709': 141, u'\u7a0b': 721, u'\u590d': 874, u'\u5c0f': 285, u'\u7f8e': 52, u'\u5192': 1302, u'\u4f19': 1020, u'\u4e98': 438, u'\u9e23': 836, u'\u80f3': 986, u'\u5bb6': 341, u'\u7eb8': 302, u'\u523b': 555, u'\u70bc': 1377, u'\u89c2': 994, u'\u8749': 534, u'\u5351': 1230, u'\u8857': 1119, u'\u4f59': 741, u'\u60dc': 1151, u'\u7ae0': 812, u'\u53e6': 244, u'\u9769': 1034, u'\u96e8': 657, u'\u95ea': 276, u'\u6708': 579, u'\u5012': 493, u'\u4f18': 1100, u'\u7728': 284, u'\u88ad': 1396, u'\u62b1': 1148, u'\u87b3': 1161, u'\u53bb': 13, u'\u6748': 497, u'\u8beb': 867, u'\u8def': 440, u'\u6d3c': 1373, u'\u82f1': 1262, u'\u8574': 697, u'\u7a76': 722, u'\u90fd': 321, u'\u517c': 745, u'\u767e': 346, u'\u601d': 634, u'\u8d2f': 279, u'\u4eae': 578, u'\u60b2': 1353, u'\u96be': 120, u'\u7455': 233, u'\u8fd8': 125, u'\u5c65': 857, u'\u7167': 653, u'\u9669': 1299, u'\u54ea': 580, u'\u7977': 528, u'\u957f': 449, u'\u56fe': 453, u'\u6f02': 216, u'\u6687': 742, u'\u5e0c': 792, u'\u7591': 1206, u'\u679d': 498, u'\u5531': 1024, u'\u5eb7': 1242, u'\u59b9': 1159, u'\u52bf': 730, u'\u9760': 197, u'\u5fcd': 753, u'\u5450': 1351, u'\u9752': 923, u'\u5de1': 188, u'\u5f62': 637, u'\u5be5': 1338, u'\u5566': 912, u'\u8e66': 1374, u'\u60f3': 124, u'\u6d01': 232, u'\u5490': 739, u'\u6e17': 827, u'\u626e': 73, u'\u671d': 1158, u'\u9aa4': 674, u'\u4eac': 293, u'\u8033': 629, u'\u6d41': 893, u'\u5c4b': 537, u'\u9053': 235, u'\u5355': 227, u'\u90e8': 114, u'\u8c6b': 715, u'\u53ea': 166, u'\u4eec': 480, u'\u6073': 737, u'\u5979': 71, u'\u76fc': 882, u'\u62d4': 1094, u'\u6108': 412, u'\u7d20': 1099, u'\u7aa5': 636, u'\u5426': 786, u'\u5fb7': 1231, u'\u5b88': 888, u'\u5938': 389, u'\u96bd': 884, u'\u773c': 55, u'\u5893': 1340, u'\u6446': 1420, u'\u54d1': 1215, u'\u810f': 313, u'\u4fd7': 780, u'\u88d9': 1192, u'\u7ae5': 162, u'\u5b64': 963, u'\u5168': 253, u'\u8f6c': 520, u'\u8bef': 80, u'\u6570': 679, u'\u81f3': 683, u'\u95fb': 692, u'\u7a7a': 486, u'\u8c01': 643, u'\u628a': 263, u'\u788e': 1178, u'\u5411': 768, u'\u4f17': 295, u'\u679c': 595, u'\u7ea2': 64, u'\u71a8': 688, u'\u52aa': 1426, u'\u4e2d': 18, u'\u65b0': 243, u'\u753b': 954, u'\u6c41': 1305, u'\u61c8': 989, u'\u98ce': 682, u'\u635f': 221, u'\u7ea6': 26, u'\u66f2': 1048, u'\u767d': 506, u'\u6389': 1097, u'\u5e02': 458, u'\u5014': 863, u'\u609f': 1256, u'\u7fa1': 783, u'\u7aa3': 554, u'\u73a9': 1168, u'\u4eab': 801, u'\u5728': 12, u'\u5bb9': 54, u'\u793a': 130, u'\u9650': 749, u'\u71d5': 658, u'\u695a': 691, u'\u7766': 1169, u'\u6670': 825, u'\u5bf9': 241, u'\u547c': 961, u'\u6d82': 58, u'\u6905': 428, u'\u6309': 1345, u'\u818a': 987, u'\u5427': 781, u'\u52a8': 541, u'\u8d2d': 1324, u'\u6731': 398, u'\u7ab8': 553, u'\u963b': 703, u'\u4ec0': 468, u'\u6447': 426, u'\u6349': 861, u'\u5de2': 839, u'\u707f': 654, u'\u6587': 109, u'\u6606': 507, u'\u798f': 769, u'\u4e16': 229, u'\u821e': 3, u'\u7f20': 1346, u'\u52a9': 136, u'\u86b1': 1163, u'\u6c42': 597, u'\u88c5': 72, u'\u62c9': 1091, u'\u804a': 772, u'\u5750': 347, u'\u84dd': 1035, u'\u8feb': 859, u'\u5e76': 88, u'\u987a': 111, u'\u590f': 680, u'\u671b': 282, u'\u841d': 1348, u'\u659c': 487, u'\u611f': 181, u'\u53a8': 1103, u'\u6f2b': 187, u'\u90aa': 247, u'\u75bc': 701, u'\u513f': 220, u'\u6fc0': 613, u'\u60ca': 747, u'\u5353': 1075, u'\u4ed6': 173, u'\u5b63': 574, u'\u5269': 614, u'\u81f4': 117, u'\u5ef6': 1313, u'\u547d': 370, u'\u3000': 821, u'\u7483': 391, u'\u4e14': 366, u'\u5e9f': 324, u'\u6020': 1424, u'\u6da9': 157, u'\u8c28': 1030, u'\u70ab': 396, u'\u722c': 523, u'\u952e': 1052, u'\u65b9': 360, u'\u673a': 774, u'\u94c3': 915, u'\u5458': 1327, u'\u575a': 752, u'\u7edf': 1241, u'\u6362': 83, u'\u73ed': 477, u'\u5ff5': 841, u'\u5e74': 93, u'\u4eff': 372, u'\u5403': 1425, u'\u7684': 16, u'\u5a07': 51, u'\u9986': 1400, u'\u660f': 758, u'\u8c13': 1309, u'\u4e94': 361, u'\u9519': 877, u'\u7a9c': 1201, u'\u9e1f': 837, u'\u60a0': 531, u'\u5931': 430, u'\u78b0': 270, u'\u6237': 949, u'\u6539': 644, u'\u53c2': 1128, u'\u96c4': 1263, u'\u604b': 624, u'\u4f55': 1062, u'\u7559': 214, u'\u6765': 267, u'\u89e6': 150, u'\u6ce8': 185, u'\u706b': 951, u'\u72ec': 699, u'\u95ee': 589, u'\u58f0': 871, u'\u7c73': 571, u'\u7ef4': 1047, u'\u5b87': 1375, u'\u5806': 1408, u'\u7c89': 1329, u'\u6f14': 1006, u'\u7518': 1277, u'\u80a1': 1397, u'\u8d28': 143, u'\u4e2a': 126, u'\u7eb5': 1362, u'\u83b7': 790, u'\u4fbf': 473, u'\u5634': 1281, u'\u90c1': 669, u'\u6361': 1142, u'\u5242': 1287, u'\u96c5': 44, u'\u7bc7': 320, u'\u82cd': 414, u'\u67cf': 410, u'\u53d7': 199, u'\u7f3a': 1196, u'\u9970': 1008, u'\u7ef5': 1355, u'\u6076': 810, u'\u667a': 1180, u'\u9001': 729, u'\u9886': 1257, u'\u6811': 411, u'\u5317': 355, u'\u5598': 1203, u'\u5b9c': 713, u'\u62a2': 1323, u'\u6625': 898, u'\u68a6': 959, u'\u51c0': 962, u'\u72c2': 378, u'\u9645': 328, u'\u8bcd': 1356, u'\u624d': 694, u'\u6851': 376, u'\u8fd4': 727, u'\u5357': 1028, u'\u91d1': 484, u'\u6563': 403, u'\u516b': 30, u'\u53ec': 816, u'\u79f0': 1009, u'\u60f6': 1188, u'\u4f7f': 225, u'\u5404': 565, u'\u5e08': 1098, u'\u5956': 791, u'\u800c': 36, u'\u6c14': 142, u'\u5316': 1033, u'\u751a': 695, u'\u8fa9': 588, u'\u572e': 400, u'\u5c34': 1282, u'\u8336': 1399, u'\u683c': 155, u'\u6cbf': 1156, u'\u75c5': 942, u'\u804c': 303, u'\u5356': 1043, u'\u7cdf': 705, u'\u6162': 831, u'\u65e5': 600, u'\u4fe9': 1122, u'\u51ed': 1211, u'\u6a90': 387, u'\u4e13': 582, u'\u989c': 1016, u'\u7f9e': 156, u'\u522b': 137, u'\u5341': 28, u'\u7545': 1435, u'\u5bc6': 455, u'\u7ec8': 587, u'\u624b': 1112, u'\u80cc': 491, u'\u89d2': 56, u'\u9057': 1439, u'\u53d6': 913, u'\u9759': 444, u'\u8361': 421, u'\u8be6': 895, u'\u516d': 1078, u'\u77ee': 855, u'\u5e73': 648, u'\u9002': 1296, u'\u5987': 971, u'\u5c0a': 1389, u'\u660e': 505, u'\u5197': 909, u'\u989d': 283, u'\u591c': 605, u'\u75af': 711, u'\u4e3e': 107, u'\u6c61': 316, u'\u5544': 916, u'\u5a46': 1401, u'\u614c': 1290, u'\u85cf': 862, u'\u6cd5': 563, u'\u53eb': 660, u'\u70ed': 1023, u'\u516c': 813, u'\u793c': 1175, u'\u6276': 1217, u'\u8bfb': 260, u'\u5584': 105, u'\u5907': 435, u'\u5f88': 65, u'\u800d': 1184, u'\u8892': 1194, u'\u7b1b': 906, u'\u6e29': 151, u'\u51ac': 662, u'\u552f': 763, u'\u76ae': 926, u'\u70c2': 655, u'\u5947': 46, u'\u634b': 517, u'\u7cca': 818, u'\u604d': 844, u'\u4f53': 638, u'\u65cf': 991, u'\u7ede': 1304, u'\u85e4': 417, u'\u906d': 1084, u'\u76ee': 980, u'\u9a71': 503, u'\u6b7b': 585, u'\u878d': 1170, u'\u8c10': 1437, u'\u5199': 119, u'\u60a3': 1237, u'\u63a5': 149, u'\u4ea7': 249, u'\u6536': 999, u'\u6cbb': 1118, u'\u633a': 731, u'\u5440': 805, u'\u7ec7': 1275, u'\u614e': 1031, u'\u8dd1': 700, u'\u6bd5': 870, u'\u7adf': 723, u'\u795e': 278, u'\u8868': 90, u'\u77ed': 956, u'\u5df1': 447, u'\u8ffd': 1186, u'\u9014': 17, u'\u9003': 470, u'\u5782': 1207, u'\u5305': 1419, u'\u9888': 983, u'\u670d': 1007, u'\u620f': 1183, u'\u9119': 1240, u'\u539a': 1154, u'\u6da6': 919, u'\u542b': 995, u'\u54c0': 794, u'\u57c2': 1081, u'\u7949': 1333, u'\u6d51': 932, u'\u6fd2': 1404, u'\u65f6': 294, u'\u8eab': 87, u'\u5c06': 79, u'\u658b': 1140, u'\u600e': 615, u'\u521a': 1182, u'\u62a5': 880, u'\u4fa7': 1027, u'\u8c26': 112, u'\u73af': 1115, u'\u8138': 264, u'\u4f3c': 712, u'\u6bbf': 386, u'\u683e': 1145, u'\u54c1': 1319, u'\u71c3': 1369, u'\u7948': 527, u'\u65cb': 1359, u'\u63cf': 118, u'\u7edd': 860, u'\u5bdf': 1195, u'\u82e5': 1173, u'\u56ed': 326, u'\u9f13': 903, u'\u53ef': 287, u'\u5e72': 533, u'\u827a': 190, u'\u4efd': 239, u'\u4e92': 1019, u'\u5019': 422, u'\u5e1d': 460, u'\u77ac': 617, u'\u90ae': 1341, u'\u5c31': 261, u'\u6d3b': 192, u'\u4e3d': 104, u'\u76f4': 356, u'\u6bd4': 203, u'\u5757': 1244, u'\u98de': 1198, u'\u65e0': 195, u'\u5c71': 1286, u'\u5973': 4, u'\u88fe': 1193, u'\u5185': 1083, u'\u5b89': 252, u'\u71ac': 604, u'\u6e10': 732, u'\u6d12': 1208, u'\u56db': 128, u'\u6620': 652, u'\u6ca7': 375, u'\u8ba9': 123, u'\u892a': 393, u'\u542c': 733, u'\u732e': 1101, u'\u7834': 250, u'\u86cb': 1293, u'\u8fd1': 180, u'\u4e50': 802, u'\u54d7': 911, u'\u53d9': 1130, u'\u6562': 716, u'\u8f66': 572, u'\u79d1': 1384, u'\u5766': 420, u'\u95ed': 815, u'\u4efb': 642, u'\u7c07': 1146, u'\u4f11': 1253, u'\u5417': 1258, u'\u9c9c': 48, u'\u5b9e': 327, u'\u762b': 762, u'\u5f31': 993, u'\u7a33': 101, u'\u6d3d': 1171, u'\u8bbe': 743, u'\u7741': 819, u'\u96c0': 941, u'\u5145': 806, u'\u5fc6': 696, u'\u7b49': 374, u'\u5bde': 536, u'\u6761': 464, u'\u65e2': 1181, u'\u706f': 1143, u'\u53ee': 1126, u'\u5f71': 448, u'\u5df2': 300, u'\u6cfc': 286, u'\u9700': 1249, u'\u4e91': 1036, u'\u7597': 1406, u'\u901a': 797, u'\u80a5': 1245, u'\u57ab': 1381, u'\u522e': 1010, u'\u5bb3': 183, u'\u5934': 39, u'\u62b9': 59, u'\u8d3c': 1310, u'\u7740': 60, u'\u5144': 1167, u'\u6ed1': 1316, u'\u505a': 667, u'\u4e66': 495, u'\u54ed': 1360, u'\u65f7': 917, u'\u7184': 1368, u'\u5d07': 1222, u'\u5e86': 611, u'\u706d': 1220, u'\u670b': 770, u'\u610f': 186, u'\u4e11': 1226, u'\u5219': 787, u'\u591f': 619, u'\u6025': 596, u'\u8d27': 972, u'\u542d': 1202, u'\u8239': 852, u'\u79cb': 681, u'\u5343': 868, u'\u7ec6': 116, u'\u5a49': 1441, u'\u8fd0': 756, u'\u53d8': 439, u'\u7ade': 550, u'\u8363': 168, u'\u6279': 1131, u'\u8f7b': 351, u'\u897f': 641, u'\u7981': 1394, u'\u5f85': 377, u'\u5589': 1032, u'\u5408': 811, u'\u8010': 524, u'\u7a97': 948, u'\u5916': 245, u'\u5c18': 310, u'\u6b22': 134, u'\u4e24': 463, u'\u94f6': 1413, u'\u672a': 89, u'\u7eaf': 161, u'\u9634': 892, u'\u6c38': 885, u'\u653e': 492, u'\u7840': 1390, u'\u9b42': 431, u'\u5fc5': 423, u'\u6bcd': 350, u'\u8d4e': 1255, u'\u6050': 748, u'\u8352': 333, u'\u7956': 349, u'\u6b62': 108, u'\u62e7': 1307, u'\u65e9': 603, u'\u9a6c': 1037, u'\u7070': 1121, u'\u66ff': 765, u'\u5207': 433, u'\u9488': 977, u'\u8e0f': 1080, u'\u8111': 516, u'\u6392': 462, u'\u8715': 535, u'\u9996': 955, u'\u901b': 1074, u'\u731d': 740, u'\u961f': 1129, u'\u4ea4': 591, u'\u6170': 734, u'\u8349': 416, u'\u603b': 344, u'\u5bc2': 483, u'\u9ec4': 899, u'\u7247': 337, u'\u51c6': 434, u'\u4e4f': 1236, u'\u4ee4': 1021, u'\u6267': 1418, u'\u61e6': 1261, u'\u5dee': 570, u'\u5171': 1267, u'\u5473': 371, u'\u56f4': 365, u'\u5f04': 551, u'\u7387': 785, u'\u9006': 976, u'\u9508': 935, u'\u8212': 1434, u'\u7b97': 969, u'\u529d': 1318, u'\u731c': 665, u'\u9f84': 77, u'\u4f24': 222, u'\u7b2c': 789, u'\u5409': 169, u'\u4e3a': 82, u'\u62bd': 1029, u'\u58c1': 395, u'\u54c9': 1264, u'\u6b4c': 659, u'\u4f0f': 1160, u'\u4ee5': 69, u'\u7aed': 1295, u'\u8bf7': 1417, u'\u9a82': 1124, u'\u5f84': 918, u'\u7409': 390, u'\u6f0f': 99, u'\u8292': 445, u'\u521d': 20, u'\u771f': 159, u'\u6821': 1172, u'\u60a6': 1166, u'\u592b': 970, u'\u5f2f': 544, u'\u9635': 482, u'\u571f': 678, u'\u4eba': 100, u'\u5e45': 75, u'\u5347': 532, u'\u4f4f': 357, u'\u62d2': 1438, u'\u5b57': 936, u'\u575f': 1339, u'\u60e6': 1311, u'\u907f': 471, u'\u8bd5': 607, u'\u817b': 1235, u'\u677f': 1109, u'\u5b81': 459, u'\u5306': 803, u'\u5608': 630, u'\u6210': 74, u'\u8693': 1060, u'\u7897': 1347, u'\u529b': 231, u'\u949f': 929, u'\u8ba1': 1026, u'\u5230': 182, u'\u7434': 904, u'\u8fb9': 165, u'\u6e38': 331, u'\u7ec3': 1110, u'\u5dc5': 1371, u'\u884c': 121, u'\u4f4e': 305, u'\u6454': 547, u'\u51dd': 281, u'\u505c': 512, u'\u54df': 1349, u'\u975e': 800, u'\u4ee3': 764, u'\u8eba': 494, u'\u60e7': 996, u'\u6668': 833, u'\u7f6e': 1278, u'\u677e': 610, u'\u5e03': 1044, u'\u5982': 210, u'\u5386': 218, u'\u9709': 950, u'\u558a': 661, u'\u6613': 446, u'\u541f': 1352, u'\u6b21': 8, u'\u8d25': 560, u'\u6027': 154, u'\u5fae': 690, u'\u9633': 436, u'\u6837': 78, u'\u9047': 10, u'\u4f20': 1040, u'\u76c8': 35, u'\u62d0': 725, u'\u9ed8': 627, u'\u725b': 1365, u'\u796d': 408, u'\u5371': 1298, u'\u8877': 1415, u'\u5802': 562, u'\u5206': 115, u'\u5708': 1113, u'\u6b8b': 381, u'\u4e0e': 2, u'\u6012': 1200, u'\u7f18': 345, u'\u5c1a': 318, u'\u561e': 1045, u'\u4fa3': 1022, u'\u6728': 549, u'\u5bab': 1141, u'\u5e2e': 135, u'\u663e': 66, u'\u5fc3': 163, u'\u544a': 736, u'\u4e4e': 269, u'\u67d3': 1428, u'\u6052': 1378, u'\u7ed9': 21, u'\u6ce5': 677, u'\u6768': 910, u'\u5370': 22, u'\u77f3': 646, u'\u80fd': 564, u'\u7b80': 788, u'\u5f03': 325, u'\u4e8e': 178, u'\u6211': 1, u'\u731b': 519, u'\u901d': 1363, u'\u751f': 191, u'\u6a21': 1410, u'\u7d2f': 526, u'\u7231': 288, u'\u73b0': 91, u'\u50b2': 776, u'\u803d': 1276, u'\u653f': 1117, u'\u5c45': 1205, u'\u8d4f': 1328, u'\u4ece': 68, u'\u63d0': 322, u'\u5957': 869, u'\u5fd8': 1136, u'\u56de': 189, u'\u6167': 751, u'\u62e6': 1187, u'\u53f0': 1330, u'\u95f4': 362, u'\u66fe': 666, u'\u5883': 693, u'\u5189': 1000, u'\u8712': 1165, u'\u5999': 76, u'\u6028': 795, u'\u9732': 538, u'\u663c': 835, u'\u813e': 709, u'\u5c40': 1430, u'\u51c9': 490, u'\u534a': 513, u'\u94db': 1216, u'\u6dW tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 0 with properties: 
+name: Tesla K40c
+major: 3 minor: 5 memoryClockRate (GHz) 0.745
+pciBusID 0000:02:00.0
+Total memory: 11.17GiB
+Free memory: 711.38MiB
+W tensorflow/stream_executor/cuda/cuda_driver.cc:590] creating context when one is currently active; existing: 0x2dbdb90
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 1 with properties: 
+name: Tesla K40c
+major: 3 minor: 5 memoryClockRate (GHz) 0.745
+pciBusID 0000:04:00.0
+Total memory: 11.17GiB
+Free memory: 866.88MiB
+W tensorflow/stream_executor/cuda/cuda_driver.cc:590] creating context when one is currently active; existing: 0x2dc1990
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 2 with properties: 
+name: Tesla K40c
+major: 3 minor: 5 memoryClockRate (GHz) 0.745
+pciBusID 0000:83:00.0
+Total memory: 11.17GiB
+Free memory: 844.00MiB
+W tensorflow/stream_executor/cuda/cuda_driver.cc:590] creating context when one is currently active; existing: 0x2de61e0
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 3 with properties: 
+name: Tesla K40c
+major: 3 minor: 5 memoryClockRate (GHz) 0.745
+pciBusID 0000:84:00.0
+Total memory: 11.17GiB
+Free memory: 845.88MiB
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:777] Peer access not supported between device ordinals 0 and 2
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:777] Peer access not supported between device ordinals 0 and 3
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:777] Peer access not supported between device ordinals 1 and 2
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:777] Peer access not supported between device ordinals 1 and 3
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:777] Peer access not supported between device ordinals 2 and 0
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:777] Peer access not supported between device ordinals 2 and 1
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:777] Peer access not supported between device ordinals 3 and 0
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:777] Peer access not supported between device ordinals 3 and 1
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:906] DMA: 0 1 2 3 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 0:   Y Y N N 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 1:   Y Y N N 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 2:   N N Y Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 3:   N N Y Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K40c, pci bus id: 0000:02:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K40c, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K40c, pci bus id: 0000:83:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K40c, pci bus id: 0000:84:00.0)
+2017-06-06 20:08:59,572 root  INFO     loading data
+2017-06-06 20:08:59,573 root  INFO     phase: test
+2017-06-06 20:08:59,573 root  INFO     path dir: dataset/chinesePic/ann_test.txt
+2017-06-06 20:08:59,573 root  INFO     model_dir: model_new_rsn
+2017-06-06 20:08:59,574 root  INFO     load_model: True
+2017-06-06 20:08:59,574 root  INFO     output_dir: model_01_16/synth90
+2017-06-06 20:08:59,574 root  INFO     steps_per_checkpoint: 500
+2017-06-06 20:08:59,574 root  INFO     batch_size: 1
+2017-06-06 20:08:59,574 root  INFO     num_epoch: 3
+2017-06-06 20:08:59,574 root  INFO     learning_rate: 1
+2017-06-06 20:08:59,574 root  INFO     reg_val: 0
+2017-06-06 20:08:59,574 root  INFO     max_gradient_norm: 5.000000
+2017-06-06 20:08:59,574 root  INFO     clip_gradients: True
+2017-06-06 20:08:59,574 root  INFO     valid_target_length inf
+2017-06-06 20:08:59,574 root  INFO     target_vocab_size: 1450
+2017-06-06 20:08:59,574 root  INFO     target_embedding_size: 10.000000
+2017-06-06 20:08:59,574 root  INFO     attn_num_hidden: 256
+2017-06-06 20:08:59,574 root  INFO     attn_num_layers: 2
+2017-06-06 20:08:59,574 root  INFO     visualize: True
+2017-06-06 20:08:59,574 root  INFO     buckets
+2017-06-06 20:08:59,574 root  INFO     [(16, 32), (27, 32), (35, 32), (64, 32), (80, 32)]
+2017-06-06 20:08:59,574 root  INFO     ues GRU in the decoder.
+2017-06-06 20:09:13,670 root  INFO     Reading model parameters from model_new_rsn/haha.ckpt-6000
+2017-06-06 20:09:19,359 root  INFO     Warning: distance module not installed. Do whole sequence comparison instead.
+W tensorflow/core/common_runtime/bfc_allocator.cc:217] Ran out of memory trying to allocate 1.08GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+W tensorflow/core/common_runtime/bfc_allocator.cc:217] Ran out of memory trying to allocate 1.07GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+2017-06-06 20:09:20,471 root  INFO     step_time: 1.028598, loss: 0.002057, step perplexity: 1.002059
+2017-06-06 20:09:20,489 root  INFO     1.000000 out of 1 correct
+2017-06-06 20:09:20,623 root  INFO     step_time: 0.112943, loss: 0.245536, step perplexity: 1.278306
+2017-06-06 20:09:20,647 root  INFO     2.000000 out of 2 correct
+2017-06-06 20:09:20,781 root  INFO     step_time: 0.130846, loss: 1.206267, step perplexity: 3.340990
+2017-06-06 20:09:20,797 root  INFO     2.000000 out of 3 correct
+2017-06-06 20:09:20,933 root  INFO     step_time: 0.115111, loss: 0.003062, step perplexity: 1.003067
+2017-06-06 20:09:20,946 root  INFO     3.000000 out of 4 correct
+2017-06-06 20:09:21,079 root  INFO     step_time: 0.112539, loss: 0.006098, step perplexity: 1.006116
+2017-06-06 20:09:21,092 root  INFO     4.000000 out of 5 correct
+2017-06-06 20:09:21,212 root  INFO     step_time: 0.116714, loss: nan, step perplexity: inf
+2017-06-06 20:09:21,231 root  INFO     4.000000 out of 6 correct
+2017-06-06 20:09:21,362 root  INFO     step_time: 0.114809, loss: 0.062030, step perplexity: 1.063994
+2017-06-06 20:09:21,386 root  INFO     5.000000 out of 7 correct
+2017-06-06 20:09:21,496 root  INFO     step_time: 0.106199, loss: nan, step perplexity: inf
+2017-06-06 20:09:21,514 root  INFO     5.000000 out of 8 correct
+2017-06-06 20:09:21,670 root  INFO     step_time: 0.118490, loss: 0.066040, step perplexity: 1.068269
+2017-06-06 20:09:21,694 root  INFO     6.000000 out of 9 correct
+2017-06-06 20:09:21,812 root  INFO     step_time: 0.113979, loss: nan, step perplexity: inf
+2017-06-06 20:09:21,824 root  INFO     6.000000 out of 10 correct
+2017-06-06 20:09:21,946 root  INFO     step_time: 0.117840, loss: 0.025863, step perplexity: 1.026200
+e1': 392, u'\u6c60': 1431, u'\u8be5': 424, u'\u6068': 808, u'\u7aef': 848, u'\u996e': 1066, u'\u4ef7': 973, u'\u8d76': 504, u'\u806a': 750, u'\u9a84': 775, u'\u8c0b': 1291, u'\u4e8c': 761, u'\u9898': 590, u'\u5b9a': 744, u'\u75ea': 1405, u'\u6627': 1239, u'\u60a8': 1326, u'\u7531': 177, u'\u8bba': 573, u'\u623f': 1104, u'\u61be': 1440, u'\u9b45': 230, u'\u5149': 32, u'\u70c8': 676, u'\u53ca': 70, u'\u4f4d': 778, u'\u6551': 1254, u'\u6053': 1265, u'\u6355': 1089, u'\u82d4': 924, u'\u98d8': 193, u'\u8863': 1011, u'\u6b65': 255, u'\u65e6': 967, u'\u63ea': 1190, u'\u627e': 465, u'\u627f': 755, u'\u5c81': 31, u'\u7f62': 875, u'\u7406': 451, u'\u7089': 952, u'\u520a': 881, u'\u5f97': 207, u'\u5c16': 960, u'\u5899': 402, u'\u971c': 685, u'\u539f': 728, u'\u6ca1': 171, u'\u4e22': 930, u'\u80a9': 271, u'\u622a': 152, u'\u7ead': 822, u'\u94b1': 1412, u'\u7530': 15, u'\u51b3': 620, u'\u9b44': 432, u'\u5446': 576, u'\u5148': 1127, u'\u4ecd': 212, u'\u6bcf': 568, u'\u6652': 1061, u'\u5fd7': 583, u'\u75db': 746, u'\u5f20': 567, u'\u89e3': 452, u'\u6b64': 211, u'\u786e': 122, u'\u51f3': 922, u'\u5374': 97, u'\u8ff7': 817, u'\u9009': 1079, u'\u9a9a': 1268, u'\u6ea2': 1432, u'\u8ba4': 81, u'\u6839': 1157, u'\u6eba': 1403, u'\u5bc4': 1343, u'\u8d4b': 1106, u'\u8c61': 23, u'\u64e6': 1063, u'\u6069': 966, u'\u5173': 584, u'\u7275': 1364, u'\u867d': 777, u'\u5f81': 95, u'\u5706': 905, u'\u7389': 404, u'\u4e8b': 132, u'\u6293': 1292, u'\u7c97': 1204, u'\u7f16': 1274, u'\u5b99': 1376, u'\u5a18': 1138, u'\u591a': 206, u'\u6726': 1335, u'\u63a9': 1087, u'\u5c2c': 1283, u'\u52b3': 1105, u'\u80bf': 1402, u'\u8054': 1395, u'\u76db': 419, u'\u70df': 964, u'\u4fe1': 767, u'\u4e60': 1111, u'\u8d62': 1388, u'\u80e7': 1336, u'\u9884': 1383, u'\u4e0b': 14, u'\u8c8c': 1238, u'\u680f': 407, u'\u6094': 864, u'\u561b': 1271, u'\u6f6e': 1325, u'\u901f': 1064, u'\u6270': 1269, u'\u96c6': 542, u'\u75b2': 1054, u'\u4e4b': 144, u'\u6253': 502, u'\u6155': 784, u'\u9ad8': 317, u'\u94dc': 928, u'\u88e4': 1015, u'\u81ea': 348, u'\u6b79': 1306, u'\u5f00': 257, u'\u5b83': 358, u'\u5904': 57, u'\u5e16': 689, u'\u949d': 1225, u'\u575b': 329, u'\u719f': 103, u'\u6f20': 1247, u'\u6328': 843, u'\u602a': 1155, u'\u76b1': 927, u'\u5730': 280, u'\u6e32': 1429, u'\u5c42': 1387, u'\u5348': 425, u'\u6750': 1297, u'\u7ad9': 671, u'\u5b58': 1223, u'\u955c': 849, u'\u6ee1': 441, u'\u4f60': 602, u'\u65e7': 1132, u'\u6666': 920, u'\u5feb': 798, u'\u606a': 887, u'\u79ef': 1409, u'\u7269': 298, u'\u53f3': 500, u'\u9192': 1358, u'\u5174': 1284, u'\u827e': 1102, u'\u5e01': 1414, u'\u5f80': 823, u'\u5984': 379, u'\u6015': 601, u'\u559c': 133, u'\u529e': 1321, u'\u6b23': 672, u'\u63a8': 628, u'\u5631': 738, u'\u8bb8': 223, u'\u873b': 1164, u'\u843d': 336, u'\u613f': 720, u'\u8d77': 340, u'\u9547': 670, u'\u76c6': 945, u'\u53c8': 45, u'\u8651': 830, u'\u67d0': 616, u'\u775b': 274, u'\u6b63': 224, u'\u5373': 234, u'\u54f2': 886, u'\u7075': 311, u'\u6d77': 851, u'\u4ef6': 592, u'\u8bf8': 1219, u'\u817f': 383, u'\u9b54': 622}
+input_tensor dim: (?, 1, 32, ?)
+CNN outdim before squeeze: (?, 1, ?, 512)
+CNN outdim: (?, ?, 512)
+using GRU CELL in decoder
+output_valid [472, 135, 615, 322, 269, 229]
+ground_valid [472, 135, 615, 322, 269, 229]
+output_valid [167, 19, 6, 7, 19, 90, 243, 4, 244, 6]
+ground_valid [167, 19, 6, 7, 19, 90, 243, 4, 244, 6]
+output_valid [71, 231, 824, 824, 824]
+ground_valid [71, 231]
+output_valid [72, 329, 21, 19]
+ground_valid [72, 329, 21, 19]
+output_valid [141, 129, 577, 578]
+ground_valid [141, 129, 577, 578]
+output_valid [383, 686, 173, 144, 824, 688, 339]
+ground_valid [383, 686, 173, 144, 20000, 687, 606, 688, 339, 542]
+output_valid [1403, 5, 175, 238, 140, 297, 264, 180, 1418]
+ground_valid [1403, 5, 175, 238, 140, 297, 264, 180, 1418]
+output_valid [129, 287, 126, 103, 184, 185]
+ground_valid [20000, 287, 126, 103, 184, 185]
+output_valid [19, 1014, 63, 269, 118, 149, 476, 707, 443, 19]
+ground_valid [19, 1014, 63, 269, 118, 149, 476, 707, 443, 19]
+output_valid [17, 428, 4, 792]
+ground_valid [17, 428, 4, 792, 20000, 11]
+output_valid [210, 1285, 1286, 4, 68, 208, 56, 9, 290]
+groun2017-06-06 20:09:21,970 root  INFO     7.000000 out of 11 correct
+2017-06-06 20:09:22,101 root  INFO     step_time: 0.127683, loss: 0.008261, step perplexity: 1.008295
+2017-06-06 20:09:22,115 root  INFO     8.000000 out of 12 correct
+2017-06-06 20:09:22,274 root  INFO     step_time: 0.112395, loss: 0.377472, step perplexity: 1.458592
+2017-06-06 20:09:22,289 root  INFO     8.000000 out of 13 correct
+2017-06-06 20:09:22,404 root  INFO     step_time: 0.113129, loss: 0.002212, step perplexity: 1.002215
+2017-06-06 20:09:22,417 root  INFO     9.000000 out of 14 correct
+2017-06-06 20:09:22,542 root  INFO     step_time: 0.113659, loss: 0.709746, step perplexity: 2.033475
+2017-06-06 20:09:22,553 root  INFO     9.000000 out of 15 correct
+2017-06-06 20:09:22,672 root  INFO     step_time: 0.115084, loss: 0.201814, step perplexity: 1.223620
+2017-06-06 20:09:22,698 root  INFO     9.000000 out of 16 correct
+2017-06-06 20:09:22,827 root  INFO     step_time: 0.117992, loss: 0.100264, step perplexity: 1.105462
+2017-06-06 20:09:22,837 root  INFO     10.000000 out of 17 correct
+2017-06-06 20:09:22,952 root  INFO     step_time: 0.112417, loss: 0.139306, step perplexity: 1.149475
+2017-06-06 20:09:22,973 root  INFO     11.000000 out of 18 correct
+2017-06-06 20:09:23,088 root  INFO     step_time: 0.111892, loss: nan, step perplexity: inf
+2017-06-06 20:09:23,110 root  INFO     11.000000 out of 19 correct
+2017-06-06 20:09:23,222 root  INFO     step_time: 0.109374, loss: nan, step perplexity: inf
+2017-06-06 20:09:23,236 root  INFO     11.000000 out of 20 correct
+2017-06-06 20:09:23,376 root  INFO     step_time: 0.107667, loss: 0.010202, step perplexity: 1.010254
+2017-06-06 20:09:23,399 root  INFO     12.000000 out of 21 correct
+2017-06-06 20:09:23,519 root  INFO     step_time: 0.116696, loss: 0.025656, step perplexity: 1.025988
+2017-06-06 20:09:23,540 root  INFO     13.000000 out of 22 correct
+2017-06-06 20:09:23,659 root  INFO     step_time: 0.115032, loss: 0.413724, step perplexity: 1.512439
+2017-06-06 20:09:23,678 root  INFO     13.000000 out of 23 correct
+2017-06-06 20:09:23,840 root  INFO     step_time: 0.112386, loss: 0.702608, step perplexity: 2.019012
+2017-06-06 20:09:23,849 root  INFO     14.000000 out of 24 correct
+2017-06-06 20:09:23,967 root  INFO     step_time: 0.109983, loss: 0.047244, step perplexity: 1.048378
+2017-06-06 20:09:23,993 root  INFO     15.000000 out of 25 correct
+2017-06-06 20:09:24,109 root  INFO     step_time: 0.112770, loss: 5.034787, step perplexity: 153.666812
+2017-06-06 20:09:24,120 root  INFO     15.000000 out of 26 correct
+2017-06-06 20:09:24,287 root  INFO     step_time: 0.133130, loss: 0.508352, step perplexity: 1.662550
+2017-06-06 20:09:24,310 root  INFO     15.000000 out of 27 correct
+2017-06-06 20:09:24,431 root  INFO     step_time: 0.117619, loss: 0.007768, step perplexity: 1.007798
+2017-06-06 20:09:24,442 root  INFO     16.000000 out of 28 correct
+2017-06-06 20:09:24,560 root  INFO     step_time: 0.113447, loss: 2.174764, step perplexity: 8.800107
+2017-06-06 20:09:24,573 root  INFO     16.000000 out of 29 correct
+2017-06-06 20:09:24,694 root  INFO     step_time: 0.114166, loss: 0.041781, step perplexity: 1.042666
+2017-06-06 20:09:24,716 root  INFO     17.000000 out of 30 correct
+2017-06-06 20:09:24,838 root  INFO     step_time: 0.113750, loss: 0.021051, step perplexity: 1.021274
+2017-06-06 20:09:24,851 root  INFO     18.000000 out of 31 correct
+2017-06-06 20:09:24,967 root  INFO     step_time: 0.111801, loss: 1.052505, step perplexity: 2.864819
+2017-06-06 20:09:24,985 root  INFO     18.000000 out of 32 correct
+2017-06-06 20:09:25,101 root  INFO     step_time: 0.113000, loss: 0.081478, step perplexity: 1.084889
+2017-06-06 20:09:25,124 root  INFO     19.000000 out of 33 correct
+2017-06-06 20:09:25,260 root  INFO     step_time: 0.119775, loss: nan, step perplexity: inf
+2017-06-06 20:09:25,271 root  INFO     19.000000 out of 34 correct
+2017-06-06 20:09:25,378 root  INFO     step_time: 0.105296, loss: 3.545656, step perplexity: 34.662424
+2017-06-06 20:09:25,387 root  INFO     19.000000 out of 35 correct
+2017-06-06 20:09:25,504 root  INFO     step_time: 0.113315, loss: 0.006599, step perplexity: 1.006620
+2017-06-06 20:09:25,516 root  INFO     20.000000 out of 36 correct
+2017-06-06 20:09:25,633 root  INFO     step_time: 0.115732, loss: 0.015614, step perplexity: 1.015736
+2017-06-06 20:09:25,655 root  INFO     21.000000 out of 37 correct
+2017-06-06 20:09:25,804 root  INFO     step_time: 0.123331, loss: 4.847350, step perplexity: 127.402281
+2017-06-06 20:09:25,815 root  INFO     21.000000 out of 38 correct
+2017-06-06 20:09:25,935 root  INFO     step_time: 0.117003, loss: nan, step perplexity: inf
+2017-06-06 20:09:25,957 root  INFO     21.000000 out of 39 correct
+2017-06-06 20:09:26,072 root  INFO     step_time: 0.112214, loss: 0.719193, step perplexity: 2.052776
+2017-06-06 20:09:26,083 root  INFO     21.000000 out of 40 correct
+2017-06-06 20:09:26,213 root  INFO     step_time: 0.118157, loss: 0.027697, step perplexity: 1.028084
+2017-06-06 20:09:26,233 root  INFO     22.000000 out of 41 correct
+2017-06-06 20:09:26,358 root  INFO     step_time: 0.118569, loss: 0.026479, step perplexity: 1.026832
+2017-06-06 20:09:26,368 root  INFO     23.000000 out of 42 correct
+2017-06-06 20:09:26,488 root  INFO     step_time: 0.105701, loss: 0.008907, step perplexity: 1.008947
+2017-06-06 20:09:26,508 root  INFO     24.000000 out of 43 correct
+2017-06-06 20:09:26,620 root  INFO     step_time: 0.108464, loss: 0.003125, step perplexity: 1.003130
+2017-06-06 20:09:26,633 root  INFO     25.000000 out of 44 correct
+2017-06-06 20:09:26,751 root  INFO     step_time: 0.113703, loss: 0.123253, step perplexity: 1.131171
+2017-06-06 20:09:26,760 root  INFO     26.000000 out of 45 correct
+2017-06-06 20:09:26,881 root  INFO     step_time: 0.118075, loss: 0.031651, step perplexity: 1.032158
+2017-06-06 20:09:26,900 root  INFO     27.000000 out of 46 correct
+2017-06-06 20:09:27,041 root  INFO     step_time: 0.137748, loss: 0.002784, step perplexity: 1.002788
+2017-06-06 20:09:27,056 root  INFO     28.000000 out of 47 correct
+2017-06-06 20:09:27,174 root  INFO     step_time: 0.114753, loss: 0.046191, step perplexity: 1.047275
+2017-06-06 20:09:27,200 root  INFO     29.000000 out of 48 correct
+2017-06-06 20:09:27,324 root  INFO     step_time: 0.120995, loss: 0.008460, step perplexity: 1.008496
+2017-06-06 20:09:27,333 root  INFO     30.000000 out of 49 correct
+2017-06-06 20:09:27,465 root  INFO     step_time: 0.113879, loss: 0.022583, step perplexity: 1.022839
+2017-06-06 20:09:27,474 root  INFO     31.000000 out of 50 correct
+2017-06-06 20:09:27,596 root  INFO     step_time: 0.118672, loss: 0.005931, step perplexity: 1.005949
+2017-06-06 20:09:27,614 root  INFO     32.000000 out of 51 correct
+2017-06-06 20:09:27,758 root  INFO     step_time: 0.118778, loss: nan, step perplexity: inf
+2017-06-06 20:09:27,777 root  INFO     32.000000 out of 52 correct
+2017-06-06 20:09:27,899 root  INFO     step_time: 0.118472, loss: 0.001478, step perplexity: 1.001479
+2017-06-06 20:09:27,911 root  INFO     33.000000 out of 53 correct
+2017-06-06 20:09:28,118 root  INFO     step_time: 0.119053, loss: 0.024965, step perplexity: 1.025279
+2017-06-06 20:09:28,136 root  INFO     34.000000 out of 54 correct
+2017-06-06 20:09:28,256 root  INFO     step_time: 0.116810, loss: nan, step perplexity: inf
+2017-06-06 20:09:28,274 root  INFO     34.000000 out of 55 correct
+2017-06-06 20:09:28,433 root  INFO     step_time: 0.138218, loss: 0.356035, step perplexity: 1.427657
+2017-06-06 20:09:28,451 root  INFO     34.000000 out of 56 correct
+2017-06-06 20:09:28,585 root  INFO     step_time: 0.121767, loss: 0.003261, step perplexity: 1.003267
+2017-06-06 20:09:28,606 root  INFO     35.000000 out of 57 correct
+2017-06-06 20:09:28,734 root  INFO     step_time: 0.125227, loss: nan, step perplexity: inf
+2017-06-06 20:09:28,750 root  INFO     35.000000 out of 58 correct
+2017-06-06 20:09:28,868 root  INFO     step_time: 0.114599, loss: 0.039291, step perplexity: 1.040074
+2017-06-06 20:09:28,876 root  INFO     36.000000 out of 59 correct
+2017-06-06 20:09:29,026 root  INFO     step_time: 0.109745, loss: 0.004195, step perplexity: 1.004204
+d_valid [210, 1285, 1286, 4, 68, 208, 56, 9, 290]
+output_valid [683, 161, 14, 912, 452]
+ground_valid [683, 161, 14, 912, 452]
+output_valid [475, 1176, 27, 324, 14, 583, 223, 144]
+ground_valid [475, 27, 27, 324, 14, 583, 223, 144]
+output_valid [141, 81, 89, 269]
+ground_valid [141, 81, 89, 269]
+output_valid [19, 297, 824]
+ground_valid [19, 297]
+output_valid [229, 361, 329, 9, 264, 173, 174, 452, 453, 283]
+ground_valid [229, 141, 329, 9, 264, 173, 174, 452, 453, 283]
+output_valid [85, 63, 231, 223]
+ground_valid [85, 63, 231, 223]
+output_valid [176, 19, 662, 205, 873, 726, 14]
+ground_valid [176, 19, 662, 205, 873, 726, 14]
+output_valid [181, 567, 468, 185, 141, 81, 81, 357]
+ground_valid [181, 567, 468, 185, 141, 81, 20000, 129, 353, 357]
+output_valid [14, 764, 129, 412]
+ground_valid [14, 20000, 129, 412]
+output_valid [483, 14, 979, 297, 980, 981, 141, 329, 9]
+ground_valid [483, 14, 979, 297, 980, 981, 141, 329, 9]
+output_valid [74, 771, 131, 367, 997, 285, 297, 347]
+ground_valid [74, 771, 131, 367, 997, 285, 297, 347]
+output_valid [395, 396, 229, 397, 369, 28, 399]
+ground_valid [395, 396, 229, 397, 398, 28, 399]
+output_valid [702, 351]
+ground_valid [702, 351]
+output_valid [163, 395, 19, 603, 35, 21, 726, 715, 144, 534]
+ground_valid [163, 395, 19, 603, 35, 21, 726, 715, 144, 534]
+output_valid [16, 361, 361]
+ground_valid [16, 361]
+output_valid [6, 7, 19, 42, 43, 72, 73, 74, 75]
+ground_valid [6, 7, 19, 42, 43, 72, 73, 74, 75, 76]
+output_valid [476, 597, 95]
+ground_valid [476, 597, 95]
+output_valid [229, 583, 166, 194]
+ground_valid [229, 583]
+output_valid [595, 198, 576, 618, 81, 1279, 949, 205]
+ground_valid [595, 198, 576, 618, 81, 1279, 949, 205]
+output_valid [1140, 1141, 205, 185]
+ground_valid [1140, 1141, 205, 185]
+output_valid [452, 703, 824, 824, 824, 824]
+ground_valid [452, 703]
+output_valid [141, 329, 9, 278, 579, 185, 161, 41, 260]
+ground_valid [141, 329, 9, 278, 579, 185, 161, 41, 260]
+output_valid [472, 176, 127, 229, 10, 89, 85, 4]
+ground_valid [472, 176, 127, 229, 20000, 580, 89, 85, 4]
+output_valid [669, 24, 24]
+ground_valid [669, 201, 24]
+output_valid [297, 980, 981, 63, 329, 9, 707]
+ground_valid [297, 980, 981, 63, 329, 9, 707]
+output_valid [129, 137, 1377, 19, 132, 9, 1151]
+ground_valid [129, 137, 1377, 19, 132, 9, 1151]
+output_valid [580, 824, 206]
+ground_valid [580, 206]
+output_valid [129, 615, 19, 288, 1140, 1141, 31, 364, 96, 333]
+ground_valid [20000, 615, 19, 288, 1140, 1141, 31, 364, 96, 333]
+output_valid [141, 329, 764]
+ground_valid [141, 329]
+output_valid [129, 1092, 840, 19, 1093, 9, 231, 34]
+ground_valid [129, 1092, 840, 19, 1093, 9, 231, 34]
+output_valid [1118, 460, 1006]
+ground_valid [1118, 460, 1006]
+output_valid [983, 264, 256, 208, 1002, 687, 229]
+ground_valid [983, 264, 256, 208, 1002, 687, 229]
+output_valid [429, 430, 431, 19]
+ground_valid [429, 430, 431, 19]
+output_valid [270, 977]
+ground_valid [270, 977]
+output_valid [604, 14, 195, 209, 453, 264]
+ground_valid [604, 14, 195, 209, 453, 264]
+output_valid [605, 697, 567, 342, 343]
+ground_valid [605, 697, 567, 342, 343]
+output_valid [1354, 874, 131, 367, 324, 14, 1131, 161, 46, 414]
+ground_valid [1354, 874, 131, 367, 324, 14, 1131, 161, 46, 414]
+output_valid [72, 1151]
+ground_valid [72, 1151]
+output_valid [988, 15]
+ground_valid [988, 15]
+output_valid [72, 966, 486, 1341, 339, 147]
+ground_valid [72, 966, 486, 1341, 339, 147]
+output_valid [270, 28, 463, 48, 5, 244, 229]
+ground_valid [270, 28, 463, 48, 20000, 11, 244, 229, 824, 824]
+output_valid [185, 141, 129, 232]
+ground_valid [185, 141, 129, 232]
+output_valid [63, 329, 281, 77, 96, 529, 582]
+ground_valid [63, 329, 281, 77, 96, 529, 582]
+output_valid [273, 416, 412, 182, 182, 74, 89]
+ground_valid [273, 416, 20000, 129, 412, 182, 182, 74, 89]
+output_valid [384, 327, 19, 223, 9, 46]
+ground_valid [384, 327, 19, 223, 9, 789]
+output_valid [425, 264, 579, 185, 444, 283, 28]
+ground_valid [425, 264, 579, 185, 444, 283, 28]
+output_valid [129, 290, 789, 84, 19]
+ground_valid [20000, 290, 789, 84, 19]
+output_valid [4, 143]
+ground_valid [4, 143]
+output_valid [129, 1192, 15, 329]
+ground_valid [129, 1192, 15, 329]2017-06-06 20:09:29,039 root  INFO     37.000000 out of 60 correct
+2017-06-06 20:09:29,169 root  INFO     step_time: 0.116779, loss: 1.350823, step perplexity: 3.860602
+2017-06-06 20:09:29,191 root  INFO     37.000000 out of 61 correct
+2017-06-06 20:09:29,307 root  INFO     step_time: 0.112537, loss: 0.006749, step perplexity: 1.006771
+2017-06-06 20:09:29,317 root  INFO     38.000000 out of 62 correct
+2017-06-06 20:09:29,449 root  INFO     step_time: 0.112694, loss: 0.005414, step perplexity: 1.005429
+2017-06-06 20:09:29,463 root  INFO     39.000000 out of 63 correct
+2017-06-06 20:09:29,586 root  INFO     step_time: 0.118963, loss: nan, step perplexity: inf
+2017-06-06 20:09:29,599 root  INFO     39.000000 out of 64 correct
+2017-06-06 20:09:29,720 root  INFO     step_time: 0.117396, loss: 0.057514, step perplexity: 1.059200
+2017-06-06 20:09:29,744 root  INFO     40.000000 out of 65 correct
+2017-06-06 20:09:29,894 root  INFO     step_time: 0.120996, loss: nan, step perplexity: inf
+2017-06-06 20:09:29,917 root  INFO     40.000000 out of 66 correct
+2017-06-06 20:09:30,034 root  INFO     step_time: 0.113244, loss: 0.308825, step perplexity: 1.361824
+2017-06-06 20:09:30,054 root  INFO     40.000000 out of 67 correct
+2017-06-06 20:09:30,170 root  INFO     step_time: 0.111974, loss: 0.132696, step perplexity: 1.141903
+2017-06-06 20:09:30,194 root  INFO     41.000000 out of 68 correct
+2017-06-06 20:09:30,320 root  INFO     step_time: 0.113156, loss: 0.116771, step perplexity: 1.123862
+2017-06-06 20:09:30,332 root  INFO     42.000000 out of 69 correct
+2017-06-06 20:09:30,446 root  INFO     step_time: 0.110000, loss: 0.007654, step perplexity: 1.007683
+2017-06-06 20:09:30,465 root  INFO     43.000000 out of 70 correct
+2017-06-06 20:09:30,584 root  INFO     step_time: 0.116861, loss: 0.020932, step perplexity: 1.021153
+2017-06-06 20:09:30,604 root  INFO     44.000000 out of 71 correct
+2017-06-06 20:09:30,769 root  INFO     step_time: 0.115807, loss: 0.040318, step perplexity: 1.041142
+2017-06-06 20:09:30,782 root  INFO     45.000000 out of 72 correct
+2017-06-06 20:09:30,899 root  INFO     step_time: 0.109592, loss: nan, step perplexity: inf
+2017-06-06 20:09:30,919 root  INFO     45.000000 out of 73 correct
+2017-06-06 20:09:31,038 root  INFO     step_time: 0.115744, loss: 0.071775, step perplexity: 1.074414
+2017-06-06 20:09:31,046 root  INFO     46.000000 out of 74 correct
+2017-06-06 20:09:31,187 root  INFO     step_time: 0.111928, loss: 0.034718, step perplexity: 1.035328
+2017-06-06 20:09:31,201 root  INFO     47.000000 out of 75 correct
+2017-06-06 20:09:31,304 root  INFO     step_time: 0.100568, loss: 0.009647, step perplexity: 1.009694
+2017-06-06 20:09:31,316 root  INFO     48.000000 out of 76 correct
+2017-06-06 20:09:31,437 root  INFO     step_time: 0.102421, loss: 0.041187, step perplexity: 1.042047
+2017-06-06 20:09:31,454 root  INFO     49.000000 out of 77 correct
+2017-06-06 20:09:31,567 root  INFO     step_time: 0.108858, loss: 0.023914, step perplexity: 1.024202
+2017-06-06 20:09:31,587 root  INFO     50.000000 out of 78 correct
+2017-06-06 20:09:31,697 root  INFO     step_time: 0.106599, loss: 0.002528, step perplexity: 1.002532
+2017-06-06 20:09:31,711 root  INFO     51.000000 out of 79 correct
+2017-06-06 20:09:31,882 root  INFO     step_time: 0.115940, loss: nan, step perplexity: inf
+2017-06-06 20:09:31,900 root  INFO     51.000000 out of 80 correct
+2017-06-06 20:09:32,015 root  INFO     step_time: 0.111566, loss: nan, step perplexity: inf
+2017-06-06 20:09:32,038 root  INFO     51.000000 out of 81 correct
+2017-06-06 20:09:32,150 root  INFO     step_time: 0.109026, loss: 0.044031, step perplexity: 1.045015
+2017-06-06 20:09:32,164 root  INFO     52.000000 out of 82 correct
+2017-06-06 20:09:32,316 root  INFO     step_time: 0.122285, loss: 0.366655, step perplexity: 1.442899
+2017-06-06 20:09:32,340 root  INFO     52.000000 out of 83 correct
+2017-06-06 20:09:32,455 root  INFO     step_time: 0.108149, loss: 0.163619, step perplexity: 1.177765
+2017-06-06 20:09:32,467 root  INFO     53.000000 out of 84 correct
+2017-06-06 20:09:32,588 root  INFO     step_time: 0.109723, loss: 6.739294, step perplexity: 844.963622
+2017-06-06 20:09:32,598 root  INFO     53.000000 out of 85 correct
+2017-06-06 20:09:32,717 root  INFO     step_time: 0.115896, loss: nan, step perplexity: inf
+2017-06-06 20:09:32,725 root  INFO     53.000000 out of 86 correct
+2017-06-06 20:09:32,846 root  INFO     step_time: 0.109535, loss: nan, step perplexity: inf
+2017-06-06 20:09:32,862 root  INFO     53.000000 out of 87 correct
+2017-06-06 20:09:32,974 root  INFO     step_time: 0.100310, loss: 0.051214, step perplexity: 1.052548
+2017-06-06 20:09:32,985 root  INFO     54.000000 out of 88 correct
+2017-06-06 20:09:33,110 root  INFO     step_time: 0.119498, loss: 0.065552, step perplexity: 1.067748
+2017-06-06 20:09:33,126 root  INFO     55.000000 out of 89 correct
+2017-06-06 20:09:33,243 root  INFO     step_time: 0.114726, loss: 0.121315, step perplexity: 1.128980
+2017-06-06 20:09:33,250 root  INFO     56.000000 out of 90 correct
+2017-06-06 20:09:33,348 root  INFO     step_time: 0.095684, loss: 0.094519, step perplexity: 1.099130
+2017-06-06 20:09:33,359 root  INFO     57.000000 out of 91 correct
+2017-06-06 20:09:33,490 root  INFO     step_time: 0.107630, loss: 0.024942, step perplexity: 1.025256
+2017-06-06 20:09:33,506 root  INFO     58.000000 out of 92 correct
+2017-06-06 20:09:33,610 root  INFO     step_time: 0.101650, loss: nan, step perplexity: inf
+2017-06-06 20:09:33,632 root  INFO     58.000000 out of 93 correct
+2017-06-06 20:09:33,757 root  INFO     step_time: 0.108412, loss: 0.016110, step perplexity: 1.016241
+2017-06-06 20:09:33,791 root  INFO     59.000000 out of 94 correct
+2017-06-06 20:09:33,920 root  INFO     step_time: 0.117658, loss: nan, step perplexity: inf
+2017-06-06 20:09:33,933 root  INFO     59.000000 out of 95 correct
+2017-06-06 20:09:34,054 root  INFO     step_time: 0.117341, loss: nan, step perplexity: inf
+2017-06-06 20:09:34,080 root  INFO     59.000000 out of 96 correct
+2017-06-06 20:09:34,195 root  INFO     step_time: 0.110929, loss: 0.260448, step perplexity: 1.297511
+2017-06-06 20:09:34,216 root  INFO     60.000000 out of 97 correct
+2017-06-06 20:09:34,339 root  INFO     step_time: 0.119235, loss: nan, step perplexity: inf
+2017-06-06 20:09:34,376 root  INFO     60.000000 out of 98 correct
+2017-06-06 20:09:34,504 root  INFO     step_time: 0.107486, loss: nan, step perplexity: inf
+2017-06-06 20:09:34,516 root  INFO     60.000000 out of 99 correct
+2017-06-06 20:09:34,641 root  INFO     step_time: 0.121561, loss: nan, step perplexity: inf
+2017-06-06 20:09:34,655 root  INFO     60.000000 out of 100 correct
+2017-06-06 20:09:34,768 root  INFO     step_time: 0.109775, loss: 0.232650, step perplexity: 1.261940
+2017-06-06 20:09:34,788 root  INFO     60.000000 out of 101 correct
+2017-06-06 20:09:34,906 root  INFO     step_time: 0.114828, loss: 0.003369, step perplexity: 1.003374
+2017-06-06 20:09:34,917 root  INFO     61.000000 out of 102 correct
+2017-06-06 20:09:35,040 root  INFO     step_time: 0.119432, loss: 0.017179, step perplexity: 1.017327
+2017-06-06 20:09:35,085 root  INFO     62.000000 out of 103 correct
+2017-06-06 20:09:35,210 root  INFO     step_time: 0.120311, loss: 0.059447, step perplexity: 1.061249
+2017-06-06 20:09:35,223 root  INFO     63.000000 out of 104 correct
+2017-06-06 20:09:35,376 root  INFO     step_time: 0.115817, loss: 0.007216, step perplexity: 1.007242
+2017-06-06 20:09:35,395 root  INFO     64.000000 out of 105 correct
+2017-06-06 20:09:35,516 root  INFO     step_time: 0.117615, loss: 0.031146, step perplexity: 1.031636
+2017-06-06 20:09:35,529 root  INFO     65.000000 out of 106 correct
+2017-06-06 20:09:35,643 root  INFO     step_time: 0.109774, loss: 0.025548, step perplexity: 1.025877
+2017-06-06 20:09:35,659 root  INFO     66.000000 out of 107 correct
+2017-06-06 20:09:35,789 root  INFO     step_time: 0.114338, loss: 0.013155, step perplexity: 1.013241
+2017-06-06 20:09:35,797 root  INFO     67.000000 out of 108 correct
+2017-06-06 20:09:35,932 root  INFO     step_time: 0.131645, loss: 2.137612, step perplexity: 8.479166
+
+output_valid [483, 979, 10, 764, 764, 764, 764]
+ground_valid [483, 979]
+output_valid [567, 15, 344]
+ground_valid [567, 15, 344]
+output_valid [19, 592, 593, 39, 169]
+ground_valid [19, 592, 593, 39, 169]
+output_valid [129, 43, 95, 19, 770]
+ground_valid [20000, 43, 95, 19, 770]
+output_valid [1182, 209, 96, 4, 726, 43, 94, 231, 129]
+ground_valid [1182, 209, 96, 4, 726, 43, 94, 231, 129]
+output_valid [578, 278, 433, 627, 129, 70, 264, 715, 272]
+ground_valid [578, 278, 433, 627, 20000, 70, 264, 715, 272]
+output_valid [60, 61, 62, 63, 10, 64, 19]
+ground_valid [60, 61, 62, 63, 46, 64, 19]
+output_valid [571, 297, 571, 558, 324, 14, 1304, 439, 205]
+ground_valid [571, 297, 571, 558, 324, 14, 1304, 439, 205]
+output_valid [14, 195, 63]
+ground_valid [14, 195, 63]
+output_valid [777, 182, 308, 783, 229, 784, 4, 35]
+ground_valid [777, 182, 308, 783, 229, 784, 4, 35]
+output_valid [831, 19, 820, 861, 229, 611, 213]
+ground_valid [831, 19, 820, 861, 229, 611, 213]
+output_valid [7, 1262, 264, 229]
+ground_valid [7, 1262, 264, 229]
+output_valid [24, 361, 231, 81, 764, 597, 796, 48]
+ground_valid [24, 361, 231, 81, 20000, 129, 597, 796, 48]
+output_valid [28, 91, 92, 93, 94, 95]
+ground_valid [28, 91, 92, 93, 94, 95]
+output_valid [177, 7, 147, 276, 19, 251, 7, 290, 14]
+ground_valid [177, 7, 147, 276, 19, 251, 7, 290, 14]
+output_valid [109, 965, 1036, 229, 4, 19, 166, 470, 1322]
+ground_valid [109, 965, 1036, 229, 4, 19, 166, 470, 1322]
+output_valid [131, 349, 209, 96, 264, 350, 339]
+ground_valid [131, 349, 209, 96, 264, 350, 339]
+output_valid [187, 1102, 85, 471, 472, 208, 195]
+ground_valid [187, 1102, 85, 471, 472, 208, 195]
+output_valid [229, 39, 369, 15, 361, 90]
+ground_valid [229, 39, 369, 15, 361, 90]
+output_valid [834, 711, 454, 764, 481, 43, 269]
+ground_valid [834, 711, 454, 20000, 481, 43, 269]
+output_valid [981, 63, 764, 1350, 457, 1207, 19, 420]
+ground_valid [981, 63, 20000, 467, 1350, 457, 1207, 19, 420]
+output_valid [737, 14, 738, 351]
+ground_valid [737, 14, 738, 351]
+output_valid [85, 103, 505, 4, 19, 59, 339, 1282]
+ground_valid [85, 103, 505, 1272, 19, 59, 339, 1282]
+output_valid [679, 679, 1161]
+ground_valid [679, 679, 1161]
+output_valid [161, 161, 14]
+ground_valid [161, 14]
+output_valid [231, 14]
+ground_valid [231, 14, 20000]
+output_valid [229, 303, 357, 163, 828, 665, 161, 14]
+ground_valid [939, 303, 20000, 163, 828, 665, 161, 14]
+output_valid [59, 244, 4]
+ground_valid [59, 244, 4]
+output_valid [346, 89, 4, 344, 312, 283, 332]
+ground_valid [346, 89, 4, 344, 312, 283, 332]
+output_valid [185, 297]
+ground_valid [185, 297]
+output_valid [229, 529, 229]
+ground_valid [229, 529, 229]
+output_valid [207, 15, 231, 271, 572, 44, 1148, 414, 17, 416]
+ground_valid [207, 15, 231, 271, 572, 44, 1148, 414, 17, 416]
+output_valid [229, 4, 264, 129, 16, 27, 74, 269]
+ground_valid [229, 4, 264, 20000, 16, 27, 74, 269, 20000]
+output_valid [58, 59, 60, 61, 62, 63, 46]
+ground_valid [58, 59, 60, 61, 62, 63, 46]
+output_valid [14, 572, 572, 874]
+ground_valid [14, 20000, 572]
+output_valid [377, 380, 605, 605, 580, 764, 580, 371, 210, 354]
+ground_valid [377, 380, 605, 605, 580, 20000, 580, 371, 210, 354]
+output_valid [19, 384, 756, 5, 946, 285, 683, 161]
+ground_valid [19, 384, 756, 5, 946, 285, 683, 161]
+output_valid [229, 824, 404, 404, 320, 405, 48]
+ground_valid [229, 20000, 404, 404, 320, 405, 48]
+output_valid [144, 14, 781]
+ground_valid [144, 20000, 781]
+output_valid [330, 764, 258, 258, 324]
+ground_valid [330, 20000, 258, 258, 324]
+output_valid [616, 19, 489, 145, 21, 975, 1041]
+ground_valid [1049, 19, 489, 145, 21, 975, 1041]
+output_valid [14, 19, 4]
+ground_valid [14, 19, 4]
+output_valid [329, 9, 278, 579, 185, 161, 41, 260, 1126, 749]
+ground_valid [329, 9, 278, 579, 185, 161, 41, 260, 1126, 749]
+output_valid [584, 271, 288, 297]
+ground_valid [584, 271, 288, 297]
+output_valid [129, 291, 1027, 662, 19, 288]
+ground_valid [129, 291, 1027, 662, 19, 288]
+output_valid [324, 1068, 523, 90]
+ground_valid [324, 1068, 523, 90]
+output_valid [437, 438, 229, 561, 74]
+ground_valid [437, 438, 229, 561, 74]
+output_valid [1027, 662]
+ground_valid [1027, 662]
+output_valid [482017-06-06 20:09:35,945 root  INFO     67.000000 out of 109 correct
+2017-06-06 20:09:36,109 root  INFO     step_time: 0.116582, loss: 0.027471, step perplexity: 1.027852
+2017-06-06 20:09:36,132 root  INFO     68.000000 out of 110 correct
+2017-06-06 20:09:36,249 root  INFO     step_time: 0.113142, loss: 0.083853, step perplexity: 1.087469
+2017-06-06 20:09:36,262 root  INFO     69.000000 out of 111 correct
+2017-06-06 20:09:36,382 root  INFO     step_time: 0.115395, loss: 0.014248, step perplexity: 1.014350
+2017-06-06 20:09:36,394 root  INFO     70.000000 out of 112 correct
+2017-06-06 20:09:36,506 root  INFO     step_time: 0.108640, loss: nan, step perplexity: inf
+2017-06-06 20:09:36,515 root  INFO     70.000000 out of 113 correct
+2017-06-06 20:09:36,643 root  INFO     step_time: 0.104923, loss: 0.052524, step perplexity: 1.053928
+2017-06-06 20:09:36,647 root  INFO     71.000000 out of 114 correct
+2017-06-06 20:09:36,768 root  INFO     step_time: 0.110095, loss: 0.008723, step perplexity: 1.008761
+2017-06-06 20:09:36,787 root  INFO     72.000000 out of 115 correct
+2017-06-06 20:09:36,901 root  INFO     step_time: 0.110773, loss: 0.001564, step perplexity: 1.001565
+2017-06-06 20:09:36,918 root  INFO     73.000000 out of 116 correct
+2017-06-06 20:09:37,036 root  INFO     step_time: 0.114264, loss: 1.424907, step perplexity: 4.157472
+2017-06-06 20:09:37,052 root  INFO     73.000000 out of 117 correct
+2017-06-06 20:09:37,178 root  INFO     step_time: 0.122134, loss: 0.017923, step perplexity: 1.018084
+2017-06-06 20:09:37,200 root  INFO     74.000000 out of 118 correct
+2017-06-06 20:09:37,308 root  INFO     step_time: 0.105145, loss: 0.236903, step perplexity: 1.267319
+2017-06-06 20:09:37,326 root  INFO     75.000000 out of 119 correct
+2017-06-06 20:09:37,438 root  INFO     step_time: 0.110410, loss: 0.009354, step perplexity: 1.009398
+2017-06-06 20:09:37,460 root  INFO     76.000000 out of 120 correct
+2017-06-06 20:09:37,575 root  INFO     step_time: 0.111096, loss: 0.247366, step perplexity: 1.280647
+2017-06-06 20:09:37,583 root  INFO     77.000000 out of 121 correct
+2017-06-06 20:09:37,707 root  INFO     step_time: 0.119769, loss: 0.017926, step perplexity: 1.018087
+2017-06-06 20:09:37,726 root  INFO     78.000000 out of 122 correct
+2017-06-06 20:09:37,857 root  INFO     step_time: 0.128097, loss: 0.137530, step perplexity: 1.147436
+2017-06-06 20:09:37,869 root  INFO     79.000000 out of 123 correct
+2017-06-06 20:09:38,003 root  INFO     step_time: 0.117268, loss: nan, step perplexity: inf
+2017-06-06 20:09:38,020 root  INFO     79.000000 out of 124 correct
+2017-06-06 20:09:38,128 root  INFO     step_time: 0.105189, loss: 0.009736, step perplexity: 1.009784
+2017-06-06 20:09:38,146 root  INFO     80.000000 out of 125 correct
+2017-06-06 20:09:38,281 root  INFO     step_time: 0.131575, loss: nan, step perplexity: inf
+2017-06-06 20:09:38,300 root  INFO     80.000000 out of 126 correct
+2017-06-06 20:09:38,422 root  INFO     step_time: 0.118420, loss: nan, step perplexity: inf
+2017-06-06 20:09:38,447 root  INFO     80.000000 out of 127 correct
+2017-06-06 20:09:38,569 root  INFO     step_time: 0.118728, loss: nan, step perplexity: inf
+2017-06-06 20:09:38,589 root  INFO     80.000000 out of 128 correct
+2017-06-06 20:09:38,724 root  INFO     step_time: 0.118681, loss: 0.002535, step perplexity: 1.002539
+2017-06-06 20:09:38,736 root  INFO     81.000000 out of 129 correct
+2017-06-06 20:09:38,858 root  INFO     step_time: 0.118453, loss: 5.047328, step perplexity: 155.606054
+2017-06-06 20:09:38,874 root  INFO     81.000000 out of 130 correct
+2017-06-06 20:09:38,990 root  INFO     step_time: 0.112150, loss: 0.573404, step perplexity: 1.774297
+2017-06-06 20:09:39,004 root  INFO     81.000000 out of 131 correct
+2017-06-06 20:09:39,107 root  INFO     step_time: 0.100450, loss: 0.058030, step perplexity: 1.059747
+2017-06-06 20:09:39,119 root  INFO     82.000000 out of 132 correct
+2017-06-06 20:09:39,227 root  INFO     step_time: 0.097474, loss: nan, step perplexity: inf
+2017-06-06 20:09:39,246 root  INFO     82.000000 out of 133 correct
+2017-06-06 20:09:39,392 root  INFO     step_time: 0.133275, loss: 2.077651, step perplexity: 7.985685
+2017-06-06 20:09:39,420 root  INFO     82.000000 out of 134 correct
+2017-06-06 20:09:39,556 root  INFO     step_time: 0.132449, loss: 0.618688, step perplexity: 1.856491
+2017-06-06 20:09:39,564 root  INFO     83.000000 out of 135 correct
+2017-06-06 20:09:39,706 root  INFO     step_time: 0.112852, loss: 0.016507, step perplexity: 1.016644
+2017-06-06 20:09:39,726 root  INFO     84.000000 out of 136 correct
+2017-06-06 20:09:39,844 root  INFO     step_time: 0.114990, loss: 0.040328, step perplexity: 1.041152
+2017-06-06 20:09:39,868 root  INFO     85.000000 out of 137 correct
+2017-06-06 20:09:40,007 root  INFO     step_time: 0.119619, loss: 0.090139, step perplexity: 1.094326
+2017-06-06 20:09:40,030 root  INFO     86.000000 out of 138 correct
+2017-06-06 20:09:40,167 root  INFO     step_time: 0.114999, loss: nan, step perplexity: inf
+2017-06-06 20:09:40,185 root  INFO     86.000000 out of 139 correct
+2017-06-06 20:09:40,303 root  INFO     step_time: 0.107620, loss: 0.035685, step perplexity: 1.036329
+2017-06-06 20:09:40,325 root  INFO     87.000000 out of 140 correct
+2017-06-06 20:09:40,462 root  INFO     step_time: 0.113487, loss: nan, step perplexity: inf
+2017-06-06 20:09:40,485 root  INFO     87.000000 out of 141 correct
+2017-06-06 20:09:40,602 root  INFO     step_time: 0.112097, loss: 0.033474, step perplexity: 1.034040
+2017-06-06 20:09:40,613 root  INFO     88.000000 out of 142 correct
+2017-06-06 20:09:40,725 root  INFO     step_time: 0.108702, loss: 0.001583, step perplexity: 1.001584
+2017-06-06 20:09:40,742 root  INFO     89.000000 out of 143 correct
+2017-06-06 20:09:40,857 root  INFO     step_time: 0.110422, loss: 1.703521, step perplexity: 5.493256
+2017-06-06 20:09:40,869 root  INFO     89.000000 out of 144 correct
+2017-06-06 20:09:41,001 root  INFO     step_time: 0.110060, loss: 0.066852, step perplexity: 1.069137
+2017-06-06 20:09:41,043 root  INFO     90.000000 out of 145 correct
+2017-06-06 20:09:41,179 root  INFO     step_time: 0.115544, loss: 0.024137, step perplexity: 1.024431
+2017-06-06 20:09:41,195 root  INFO     91.000000 out of 146 correct
+2017-06-06 20:09:41,319 root  INFO     step_time: 0.115675, loss: 0.003821, step perplexity: 1.003828
+2017-06-06 20:09:41,336 root  INFO     92.000000 out of 147 correct
+2017-06-06 20:09:41,466 root  INFO     step_time: 0.120900, loss: 0.174603, step perplexity: 1.190773
+2017-06-06 20:09:41,484 root  INFO     93.000000 out of 148 correct
+2017-06-06 20:09:41,619 root  INFO     step_time: 0.132875, loss: nan, step perplexity: inf
+2017-06-06 20:09:41,634 root  INFO     93.000000 out of 149 correct
+2017-06-06 20:09:41,749 root  INFO     step_time: 0.111585, loss: 0.003375, step perplexity: 1.003381
+2017-06-06 20:09:41,766 root  INFO     94.000000 out of 150 correct
+2017-06-06 20:09:41,878 root  INFO     step_time: 0.108506, loss: 0.002743, step perplexity: 1.002747
+2017-06-06 20:09:41,889 root  INFO     95.000000 out of 151 correct
+2017-06-06 20:09:42,007 root  INFO     step_time: 0.114989, loss: 0.005417, step perplexity: 1.005431
+2017-06-06 20:09:42,020 root  INFO     96.000000 out of 152 correct
+2017-06-06 20:09:42,144 root  INFO     step_time: 0.120349, loss: 0.111710, step perplexity: 1.118189
+2017-06-06 20:09:42,166 root  INFO     97.000000 out of 153 correct
+2017-06-06 20:09:42,285 root  INFO     step_time: 0.116003, loss: 0.025719, step perplexity: 1.026053
+2017-06-06 20:09:42,295 root  INFO     98.000000 out of 154 correct
+2017-06-06 20:09:42,412 root  INFO     step_time: 0.113392, loss: 0.056643, step perplexity: 1.058278
+2017-06-06 20:09:42,429 root  INFO     99.000000 out of 155 correct
+2017-06-06 20:09:42,584 root  INFO     step_time: 0.118632, loss: 0.138639, step perplexity: 1.148709
+2017-06-06 20:09:42,607 root  INFO     100.000000 out of 156 correct
+2017-06-06 20:09:42,730 root  INFO     step_time: 0.118077, loss: nan, step perplexity: inf
+9, 219, 208, 229]
+ground_valid [489, 219]
+output_valid [579, 229, 48, 711, 161, 711, 161, 702]
+ground_valid [579, 229, 48, 711, 161, 711, 161, 702]
+output_valid [972, 1054, 185, 15]
+ground_valid [972, 1054, 185, 15]
+output_valid [303, 201, 114, 476]
+ground_valid [303, 201, 114, 476]
+output_valid [4, 571, 764, 129]
+ground_valid [4, 571, 20000, 129]
+output_valid [223, 841, 842]
+ground_valid [223, 841, 842]
+output_valid [605, 4, 618, 472, 290, 567, 351]
+ground_valid [605, 4, 618, 472, 290, 567, 351]
+output_valid [15, 329, 21, 416, 185, 176]
+ground_valid [15, 329, 21, 416, 185, 176]
+output_valid [1337, 727, 824, 824, 824]
+ground_valid [1337, 727]
+output_valid [223, 9, 74, 276, 723, 155, 765, 19, 14]
+ground_valid [223, 9, 74, 276, 723, 155, 765, 19, 14]
+output_valid [740, 600, 5, 741, 742, 169, 14, 15, 74, 743]
+ground_valid [740, 600, 5, 741, 742, 169, 14, 15, 74, 743]
+output_valid [128, 144, 174, 144, 231, 142, 840, 597]
+ground_valid [128, 144, 174, 144, 231, 142, 840, 597]
+output_valid [144, 605]
+ground_valid [144, 605]
+output_valid [14, 244, 19, 208, 14, 28, 463]
+ground_valid [14, 244, 19, 208, 14, 28, 463]
+output_valid [343, 291, 276]
+ground_valid [343, 291, 276]
+output_valid [31, 436, 1253, 173, 231, 472]
+ground_valid [20000, 436, 20000, 173, 231, 472]
+output_valid [170, 171, 172, 100, 173, 174]
+ground_valid [170, 171, 172, 100, 173, 174]
+output_valid [581, 343, 582, 35, 342, 129]
+ground_valid [581, 343, 582, 35, 342, 20000]
+output_valid [91, 129, 229, 455, 74, 19, 306, 345, 346]
+ground_valid [91, 20000, 229, 455, 74, 19, 306, 307, 345, 346]
+output_valid [703, 4, 412, 205, 342, 129, 826]
+ground_valid [703, 4, 412, 205, 342, 20000, 360]
+output_valid [39, 141, 404]
+ground_valid [39, 141, 404]
+output_valid [129, 412, 412, 188, 163]
+ground_valid [129, 412]
+output_valid [9, 176, 1171, 212, 229, 290]
+ground_valid [9, 176, 1171, 529, 229, 290]
+output_valid [314, 174, 144, 15, 315, 316, 19, 193]
+ground_valid [314, 174, 144, 15, 315, 316, 19, 193]
+output_valid [213, 676, 660, 333, 19, 161, 489]
+ground_valid [213, 676, 660, 333, 19, 161, 489, 20000, 81]
+output_valid [74, 48, 10, 824, 824, 824]
+ground_valid [74, 48]
+output_valid [361, 19]
+ground_valid [361, 19]
+output_valid [19, 264, 373, 759, 39, 727, 1256]
+ground_valid [19, 264, 373, 759, 39, 727, 1256]
+output_valid [580, 223, 264, 192, 344, 144, 297, 425, 264]
+ground_valid [580, 223, 264, 192, 344, 144, 297, 425, 264]
+output_valid [14, 370, 366, 312, 361, 370, 183, 229, 4]
+ground_valid [14, 370, 366, 312, 361, 370, 183, 229, 4]
+output_valid [4, 476, 48, 129, 567, 15, 344]
+ground_valid [4, 476, 48, 20000, 567, 15, 344]
+output_valid [353, 357, 141, 88, 330, 331, 28, 14]
+ground_valid [353, 357, 141, 88, 330, 331, 28, 14]
+output_valid [14, 322, 271, 96, 452, 19, 404]
+ground_valid [14, 322, 271, 96, 452, 19, 20000, 404]
+output_valid [682, 1075, 1223, 231]
+ground_valid [682, 1075, 1223, 231]
+output_valid [126, 231, 129, 1027, 662, 19]
+ground_valid [126, 231, 129, 1027, 662, 19]
+output_valid [412, 943, 14, 824]
+ground_valid [412, 943]
+output_valid [297, 425, 605, 383, 70, 508, 509, 229, 605, 89]
+ground_valid [297, 425, 605, 383, 70, 508, 509, 229, 605, 89]
+output_valid [213, 89, 976, 1318, 147, 1251]
+ground_valid [213, 89, 976, 1318, 147, 1251]
+output_valid [63, 89, 185, 886, 14, 141]
+ground_valid [63, 89, 185, 886, 14, 141]
+output_valid [14, 123, 181, 342, 699, 19, 169, 144]
+ground_valid [14, 123, 181, 342, 699, 19, 169, 144]
+output_valid [14, 231, 129, 14, 4]
+ground_valid [14, 231, 20000, 14, 4]
+output_valid [19, 25, 26, 174, 144]
+ground_valid [19, 25, 26, 174, 144]
+output_valid [15, 231, 329]
+ground_valid [15, 231, 329]
+output_valid [24, 4, 19, 25]
+ground_valid [24, 4, 19, 25]
+output_valid [185, 1394, 1395, 790, 245, 24, 103, 72, 966]
+ground_valid [185, 1394, 1395, 790, 245, 24, 103, 72, 966]
+output_valid [103, 104, 105]
+ground_valid [103, 104, 105]
+output_valid [21, 211, 212, 205, 1422, 998]
+ground_valid [21, 211, 212, 205, 1422, 998]
+output_valid [19, 649, 928, 928, 17, 144, 598, 929, 928]
+ground_valid [19, 649, 928, 928, 17, 144, 598, 929, 928]
+output_valid [12, 770, 686, 251, 142017-06-06 20:09:42,753 root  INFO     100.000000 out of 157 correct
+2017-06-06 20:09:42,879 root  INFO     step_time: 0.123064, loss: nan, step perplexity: inf
+2017-06-06 20:09:42,904 root  INFO     100.000000 out of 158 correct
+2017-06-06 20:09:43,021 root  INFO     step_time: 0.113676, loss: 0.764220, step perplexity: 2.147319
+2017-06-06 20:09:43,035 root  INFO     100.000000 out of 159 correct
+2017-06-06 20:09:43,162 root  INFO     step_time: 0.123167, loss: nan, step perplexity: inf
+2017-06-06 20:09:43,186 root  INFO     100.000000 out of 160 correct
+2017-06-06 20:09:43,301 root  INFO     step_time: 0.111330, loss: 0.022774, step perplexity: 1.023036
+2017-06-06 20:09:43,316 root  INFO     101.000000 out of 161 correct
+2017-06-06 20:09:43,504 root  INFO     step_time: 0.122938, loss: 0.002215, step perplexity: 1.002218
+2017-06-06 20:09:43,517 root  INFO     102.000000 out of 162 correct
+2017-06-06 20:09:43,636 root  INFO     step_time: 0.114532, loss: 0.003368, step perplexity: 1.003374
+2017-06-06 20:09:43,649 root  INFO     103.000000 out of 163 correct
+2017-06-06 20:09:43,804 root  INFO     step_time: 0.114315, loss: 0.011741, step perplexity: 1.011810
+2017-06-06 20:09:43,827 root  INFO     104.000000 out of 164 correct
+2017-06-06 20:09:43,962 root  INFO     step_time: 0.122394, loss: 0.027476, step perplexity: 1.027857
+2017-06-06 20:09:43,980 root  INFO     105.000000 out of 165 correct
+2017-06-06 20:09:44,116 root  INFO     step_time: 0.122292, loss: 4.380749, step perplexity: 79.897873
+2017-06-06 20:09:44,126 root  INFO     105.000000 out of 166 correct
+2017-06-06 20:09:44,251 root  INFO     step_time: 0.116683, loss: 0.038912, step perplexity: 1.039679
+2017-06-06 20:09:44,274 root  INFO     106.000000 out of 167 correct
+2017-06-06 20:09:44,385 root  INFO     step_time: 0.106987, loss: 0.019763, step perplexity: 1.019960
+2017-06-06 20:09:44,403 root  INFO     107.000000 out of 168 correct
+2017-06-06 20:09:44,569 root  INFO     step_time: 0.138319, loss: 0.046881, step perplexity: 1.047997
+2017-06-06 20:09:44,587 root  INFO     108.000000 out of 169 correct
+2017-06-06 20:09:44,695 root  INFO     step_time: 0.104544, loss: 0.023794, step perplexity: 1.024080
+2017-06-06 20:09:44,717 root  INFO     109.000000 out of 170 correct
+2017-06-06 20:09:44,836 root  INFO     step_time: 0.115769, loss: 0.001378, step perplexity: 1.001378
+2017-06-06 20:09:44,846 root  INFO     110.000000 out of 171 correct
+2017-06-06 20:09:45,482 root  INFO     step_time: 0.117444, loss: 0.001870, step perplexity: 1.001871
+2017-06-06 20:09:45,495 root  INFO     111.000000 out of 172 correct
+2017-06-06 20:09:45,611 root  INFO     step_time: 0.112818, loss: 0.003941, step perplexity: 1.003949
+2017-06-06 20:09:45,629 root  INFO     112.000000 out of 173 correct
+2017-06-06 20:09:45,753 root  INFO     step_time: 0.113417, loss: 0.003013, step perplexity: 1.003017
+2017-06-06 20:09:45,767 root  INFO     113.000000 out of 174 correct
+2017-06-06 20:09:45,958 root  INFO     step_time: 0.115994, loss: 0.057421, step perplexity: 1.059101
+2017-06-06 20:09:45,982 root  INFO     114.000000 out of 175 correct
+2017-06-06 20:09:46,117 root  INFO     step_time: 0.121944, loss: 0.008565, step perplexity: 1.008602
+2017-06-06 20:09:46,134 root  INFO     115.000000 out of 176 correct
+2017-06-06 20:09:46,255 root  INFO     step_time: 0.117900, loss: 0.001078, step perplexity: 1.001079
+2017-06-06 20:09:46,270 root  INFO     116.000000 out of 177 correct
+2017-06-06 20:09:46,387 root  INFO     step_time: 0.113941, loss: 0.005149, step perplexity: 1.005162
+2017-06-06 20:09:46,398 root  INFO     117.000000 out of 178 correct
+2017-06-06 20:09:46,515 root  INFO     step_time: 0.113397, loss: 0.010202, step perplexity: 1.010254
+2017-06-06 20:09:46,530 root  INFO     118.000000 out of 179 correct
+2017-06-06 20:09:46,649 root  INFO     step_time: 0.115327, loss: nan, step perplexity: inf
+2017-06-06 20:09:46,668 root  INFO     118.000000 out of 180 correct
+2017-06-06 20:09:46,817 root  INFO     step_time: 0.121640, loss: 0.008852, step perplexity: 1.008892
+2017-06-06 20:09:46,835 root  INFO     119.000000 out of 181 correct
+2017-06-06 20:09:46,946 root  INFO     step_time: 0.107880, loss: 0.027337, step perplexity: 1.027714
+2017-06-06 20:09:46,962 root  INFO     120.000000 out of 182 correct
+2017-06-06 20:09:47,081 root  INFO     step_time: 0.115268, loss: 0.015854, step perplexity: 1.015980
+2017-06-06 20:09:47,098 root  INFO     121.000000 out of 183 correct
+2017-06-06 20:09:47,215 root  INFO     step_time: 0.103948, loss: nan, step perplexity: inf
+2017-06-06 20:09:47,242 root  INFO     121.000000 out of 184 correct
+2017-06-06 20:09:47,365 root  INFO     step_time: 0.119756, loss: 0.283493, step perplexity: 1.327760
+2017-06-06 20:09:47,388 root  INFO     121.000000 out of 185 correct
+2017-06-06 20:09:47,508 root  INFO     step_time: 0.116170, loss: nan, step perplexity: inf
+2017-06-06 20:09:47,522 root  INFO     121.000000 out of 186 correct
+2017-06-06 20:09:47,642 root  INFO     step_time: 0.115915, loss: 0.033667, step perplexity: 1.034240
+2017-06-06 20:09:47,655 root  INFO     122.000000 out of 187 correct
+2017-06-06 20:09:47,770 root  INFO     step_time: 0.111796, loss: 0.050917, step perplexity: 1.052236
+2017-06-06 20:09:47,785 root  INFO     123.000000 out of 188 correct
+2017-06-06 20:09:47,902 root  INFO     step_time: 0.110618, loss: nan, step perplexity: inf
+2017-06-06 20:09:47,912 root  INFO     123.000000 out of 189 correct
+2017-06-06 20:09:48,032 root  INFO     step_time: 0.116116, loss: 0.658691, step perplexity: 1.932261
+2017-06-06 20:09:48,042 root  INFO     123.000000 out of 190 correct
+2017-06-06 20:09:48,178 root  INFO     step_time: 0.112482, loss: 0.406206, step perplexity: 1.501111
+2017-06-06 20:09:48,195 root  INFO     124.000000 out of 191 correct
+2017-06-06 20:09:48,296 root  INFO     step_time: 0.097867, loss: 0.003475, step perplexity: 1.003481
+2017-06-06 20:09:48,306 root  INFO     125.000000 out of 192 correct
+2017-06-06 20:09:48,456 root  INFO     step_time: 0.113362, loss: 0.061617, step perplexity: 1.063555
+2017-06-06 20:09:48,469 root  INFO     126.000000 out of 193 correct
+2017-06-06 20:09:48,603 root  INFO     step_time: 0.131208, loss: 0.394854, step perplexity: 1.484168
+2017-06-06 20:09:48,614 root  INFO     127.000000 out of 194 correct
+2017-06-06 20:09:48,740 root  INFO     step_time: 0.118832, loss: 0.144682, step perplexity: 1.155673
+2017-06-06 20:09:48,770 root  INFO     128.000000 out of 195 correct
+2017-06-06 20:09:48,895 root  INFO     step_time: 0.121142, loss: 0.197144, step perplexity: 1.217920
+2017-06-06 20:09:48,915 root  INFO     128.000000 out of 196 correct
+2017-06-06 20:09:49,028 root  INFO     step_time: 0.109641, loss: 0.120894, step perplexity: 1.128505
+2017-06-06 20:09:49,053 root  INFO     129.000000 out of 197 correct
+2017-06-06 20:09:49,173 root  INFO     step_time: 0.116638, loss: 5.142398, step perplexity: 171.125616
+2017-06-06 20:09:49,186 root  INFO     129.000000 out of 198 correct
+2017-06-06 20:09:49,340 root  INFO     step_time: 0.118792, loss: 0.545857, step perplexity: 1.726087
+2017-06-06 20:09:49,357 root  INFO     129.000000 out of 199 correct
+2017-06-06 20:09:49,491 root  INFO     step_time: 0.129843, loss: 0.004279, step perplexity: 1.004288
+2017-06-06 20:09:49,504 root  INFO     130.000000 out of 200 correct
+2017-06-06 20:09:49,641 root  INFO     step_time: 0.116682, loss: 0.018637, step perplexity: 1.018811
+2017-06-06 20:09:49,666 root  INFO     131.000000 out of 201 correct
+2017-06-06 20:09:49,790 root  INFO     step_time: 0.120461, loss: 0.033240, step perplexity: 1.033798
+2017-06-06 20:09:49,811 root  INFO     132.000000 out of 202 correct
+2017-06-06 20:09:49,932 root  INFO     step_time: 0.118167, loss: nan, step perplexity: inf
+2017-06-06 20:09:49,952 root  INFO     132.000000 out of 203 correct
+2017-06-06 20:09:50,113 root  INFO     step_time: 0.123177, loss: 0.121904, step perplexity: 1.129645
+2017-06-06 20:09:50,133 root  INFO     133.000000 out of 204 correct
+2017-06-06 20:09:50,252 root  INFO     step_time: 0.115991, loss: nan, step perplexity: inf
+4, 144, 14, 127]
+ground_valid [12, 770, 686, 251, 144, 20000, 222, 4, 14, 127]
+output_valid [561, 588, 281, 68, 891, 770, 881, 610]
+ground_valid [561, 588, 281, 68, 891, 770, 881, 610, 20000]
+output_valid [1231, 351, 824, 824]
+ground_valid [1231, 351]
+output_valid [618, 81, 195, 19, 592, 593, 229, 141, 100]
+ground_valid [618, 81, 195, 19, 592, 593, 229, 141, 100, 20000]
+output_valid [166, 21, 830, 101, 210]
+ground_valid [166, 21, 830, 101, 210]
+output_valid [19, 223, 9, 590]
+ground_valid [19, 223, 9, 590]
+output_valid [64, 23, 602, 19]
+ground_valid [64, 23, 602, 19]
+output_valid [31, 209, 96, 365, 366, 269, 271, 11, 344]
+ground_valid [31, 209, 96, 365, 366, 269, 271, 11, 344]
+output_valid [129, 103, 15, 231, 336, 710]
+ground_valid [129, 103, 15, 231, 336, 710]
+output_valid [401, 401, 67]
+ground_valid [401, 67]
+output_valid [7, 183, 629, 1203, 983, 285, 63, 231, 271]
+ground_valid [7, 183, 629, 1203, 983, 285, 63, 231, 271]
+output_valid [127, 63, 15, 103, 365, 832]
+ground_valid [127, 63, 15, 103, 365, 832]
+output_valid [627, 103, 178, 72, 31, 364]
+ground_valid [627, 103, 178, 72, 31, 364]
+output_valid [323, 288, 89, 19, 597, 796, 178]
+ground_valid [323, 288, 89, 19, 597, 796, 178]
+output_valid [129, 329, 9, 100]
+ground_valid [129, 329, 9, 100]
+output_valid [285, 156, 297, 205]
+ground_valid [285, 156, 297, 205]
+output_valid [594, 229, 322, 759, 145, 128]
+ground_valid [594, 229, 322, 759, 145, 128]
+output_valid [773, 774, 19, 297, 425]
+ground_valid [773, 774, 19, 297, 425]
+output_valid [119, 660, 684, 161, 14, 119, 660, 21, 19]
+ground_valid [119, 660, 684, 161, 14, 119, 660, 21, 19]
+output_valid [715, 141, 781, 773, 774]
+ground_valid [715, 141, 781, 773, 774]
+output_valid [14, 85, 229, 377, 4, 39]
+ground_valid [14, 85, 229, 377, 4, 39]
+output_valid [9, 278, 270]
+ground_valid [9, 278, 270]
+output_valid [4, 19, 353, 357, 759]
+ground_valid [4, 19, 353, 357, 759]
+output_valid [19, 135, 91, 129, 596, 508, 14]
+ground_valid [19, 135, 91, 20000, 596, 508, 14, 20000, 595]
+output_valid [229, 19, 141, 17, 322, 229, 1329]
+ground_valid [229, 19, 141, 17, 322, 229, 1329]
+output_valid [215, 239, 74, 240, 241]
+ground_valid [215, 239, 74, 240, 241]
+output_valid [495, 1100, 176, 89, 303, 201, 144, 322, 209]
+ground_valid [495, 1100, 176, 89, 303, 201, 144, 322, 209]
+output_valid [483, 1325, 567, 442]
+ground_valid [483, 20000, 567, 442]
+output_valid [4, 152, 153, 185, 19, 103, 640, 640]
+ground_valid [4, 152, 153, 185, 19, 103, 640, 640, 64]
+output_valid [764, 56, 1372, 1373]
+ground_valid [20000, 56, 1372, 1373]
+output_valid [9, 709, 671, 100]
+ground_valid [9, 709, 671, 100]
+output_valid [645, 1108, 645, 798, 128, 290, 72, 127]
+ground_valid [645, 1108, 645, 798, 128, 290, 72, 127]
+output_valid [63, 10, 87]
+ground_valid [63, 20000, 87]
+output_valid [161, 39, 244]
+ground_valid [103, 39, 244]
+output_valid [140, 297, 211, 212, 412, 42, 9, 803, 207]
+ground_valid [140, 297, 211, 212, 412, 42, 9, 803, 207]
+output_valid [229, 68, 44, 206, 105, 141, 781, 773]
+ground_valid [229, 68, 44, 206, 105, 141, 781, 773]
+output_valid [90, 181, 344, 238, 21]
+ground_valid [90, 181, 344, 238, 21]
+output_valid [14, 244, 19]
+ground_valid [14, 244, 19]
+output_valid [414, 859, 68, 458, 4, 27, 416]
+ground_valid [414, 859, 68, 458, 4, 27, 416]
+output_valid [454, 469, 19, 14, 249, 118, 9]
+ground_valid [454, 469, 19, 179, 249, 118, 9]
+output_valid [443, 383, 70, 365, 271, 272, 471, 472, 324]
+ground_valid [443, 383, 70, 365, 271, 272, 471, 472, 324]
+output_valid [14, 129, 129, 132]
+ground_valid [14, 129, 132]
+output_valid [1340, 147, 1012, 19, 1385, 649]
+ground_valid [1340, 147, 150, 19, 1385, 649]
+output_valid [16, 19, 231, 60]
+ground_valid [16, 19, 231, 60]
+output_valid [209, 251]
+ground_valid [209, 251]
+output_valid [219, 581, 561, 385, 1212, 1136, 1213, 174, 144]
+ground_valid [219, 581, 561, 385, 1212, 1136, 1213, 174, 144]
+output_valid [87, 561, 215, 70, 14, 129, 179, 71]
+ground_valid [87, 561, 215, 70, 14, 20000, 179, 71]
+output_valid [127, 63, 605, 100, 128, 15, 1307]
+ground_valid [127, 63, 605, 100, 128, 15, 1307]
+output_valid [326, 926, 931, 19, 44, 932]
+ground_valid 2017-06-06 20:09:50,270 root  INFO     133.000000 out of 205 correct
+2017-06-06 20:09:50,400 root  INFO     step_time: 0.115528, loss: nan, step perplexity: inf
+2017-06-06 20:09:50,431 root  INFO     133.000000 out of 206 correct
+2017-06-06 20:09:50,563 root  INFO     step_time: 0.112262, loss: 0.017542, step perplexity: 1.017697
+2017-06-06 20:09:50,595 root  INFO     134.000000 out of 207 correct
+2017-06-06 20:09:50,719 root  INFO     step_time: 0.113790, loss: nan, step perplexity: inf
+2017-06-06 20:09:50,731 root  INFO     134.000000 out of 208 correct
+2017-06-06 20:09:50,848 root  INFO     step_time: 0.113230, loss: nan, step perplexity: inf
+2017-06-06 20:09:50,861 root  INFO     134.000000 out of 209 correct
+2017-06-06 20:09:50,969 root  INFO     step_time: 0.105454, loss: 0.004397, step perplexity: 1.004407
+2017-06-06 20:09:50,985 root  INFO     135.000000 out of 210 correct
+2017-06-06 20:09:51,108 root  INFO     step_time: 0.119541, loss: 0.003875, step perplexity: 1.003883
+2017-06-06 20:09:51,127 root  INFO     136.000000 out of 211 correct
+2017-06-06 20:09:51,250 root  INFO     step_time: 0.118760, loss: 0.009186, step perplexity: 1.009229
+2017-06-06 20:09:51,273 root  INFO     137.000000 out of 212 correct
+2017-06-06 20:09:51,390 root  INFO     step_time: 0.113962, loss: nan, step perplexity: inf
+2017-06-06 20:09:51,401 root  INFO     137.000000 out of 213 correct
+2017-06-06 20:09:51,504 root  INFO     step_time: 0.101651, loss: 0.029212, step perplexity: 1.029643
+2017-06-06 20:09:51,515 root  INFO     138.000000 out of 214 correct
+2017-06-06 20:09:51,635 root  INFO     step_time: 0.115454, loss: 0.280647, step perplexity: 1.323986
+2017-06-06 20:09:51,653 root  INFO     139.000000 out of 215 correct
+2017-06-06 20:09:51,774 root  INFO     step_time: 0.106591, loss: nan, step perplexity: inf
+2017-06-06 20:09:51,816 root  INFO     139.000000 out of 216 correct
+2017-06-06 20:09:51,959 root  INFO     step_time: 0.119930, loss: 0.002926, step perplexity: 1.002930
+2017-06-06 20:09:51,975 root  INFO     140.000000 out of 217 correct
+2017-06-06 20:09:52,101 root  INFO     step_time: 0.113401, loss: 0.056435, step perplexity: 1.058058
+2017-06-06 20:09:52,126 root  INFO     141.000000 out of 218 correct
+2017-06-06 20:09:52,251 root  INFO     step_time: 0.113456, loss: 0.050356, step perplexity: 1.051646
+2017-06-06 20:09:52,268 root  INFO     142.000000 out of 219 correct
+2017-06-06 20:09:52,381 root  INFO     step_time: 0.109520, loss: 0.011360, step perplexity: 1.011425
+2017-06-06 20:09:52,387 root  INFO     143.000000 out of 220 correct
+2017-06-06 20:09:52,490 root  INFO     step_time: 0.100803, loss: 0.001258, step perplexity: 1.001259
+2017-06-06 20:09:52,496 root  INFO     144.000000 out of 221 correct
+2017-06-06 20:09:52,621 root  INFO     step_time: 0.108535, loss: nan, step perplexity: inf
+2017-06-06 20:09:52,667 root  INFO     144.000000 out of 222 correct
+2017-06-06 20:09:52,815 root  INFO     step_time: 0.126750, loss: 0.232910, step perplexity: 1.262267
+2017-06-06 20:09:52,846 root  INFO     144.000000 out of 223 correct
+2017-06-06 20:09:52,966 root  INFO     step_time: 0.115791, loss: 0.038046, step perplexity: 1.038779
+2017-06-06 20:09:52,978 root  INFO     145.000000 out of 224 correct
+2017-06-06 20:09:53,087 root  INFO     step_time: 0.107214, loss: 0.071126, step perplexity: 1.073716
+2017-06-06 20:09:53,097 root  INFO     146.000000 out of 225 correct
+2017-06-06 20:09:53,221 root  INFO     step_time: 0.105041, loss: nan, step perplexity: inf
+2017-06-06 20:09:53,242 root  INFO     146.000000 out of 226 correct
+2017-06-06 20:09:53,372 root  INFO     step_time: 0.126607, loss: 0.088713, step perplexity: 1.092767
+2017-06-06 20:09:53,386 root  INFO     147.000000 out of 227 correct
+2017-06-06 20:09:53,522 root  INFO     step_time: 0.132219, loss: 0.012682, step perplexity: 1.012763
+2017-06-06 20:09:53,543 root  INFO     148.000000 out of 228 correct
+2017-06-06 20:09:53,660 root  INFO     step_time: 0.113551, loss: 0.537709, step perplexity: 1.712080
+2017-06-06 20:09:53,682 root  INFO     148.000000 out of 229 correct
+2017-06-06 20:09:53,819 root  INFO     step_time: 0.122077, loss: 0.002638, step perplexity: 1.002642
+2017-06-06 20:09:53,865 root  INFO     149.000000 out of 230 correct
+2017-06-06 20:09:53,976 root  INFO     step_time: 0.106447, loss: 0.468318, step perplexity: 1.597305
+2017-06-06 20:09:53,991 root  INFO     149.000000 out of 231 correct
+2017-06-06 20:09:54,130 root  INFO     step_time: 0.117184, loss: nan, step perplexity: inf
+2017-06-06 20:09:54,152 root  INFO     149.000000 out of 232 correct
+2017-06-06 20:09:54,281 root  INFO     step_time: 0.116451, loss: 0.074123, step perplexity: 1.076939
+2017-06-06 20:09:54,297 root  INFO     150.000000 out of 233 correct
+2017-06-06 20:09:54,432 root  INFO     step_time: 0.122845, loss: 0.048269, step perplexity: 1.049453
+2017-06-06 20:09:54,475 root  INFO     151.000000 out of 234 correct
+2017-06-06 20:09:54,611 root  INFO     step_time: 0.114134, loss: 0.118535, step perplexity: 1.125846
+2017-06-06 20:09:54,623 root  INFO     152.000000 out of 235 correct
+2017-06-06 20:09:54,744 root  INFO     step_time: 0.109787, loss: 0.459973, step perplexity: 1.584031
+2017-06-06 20:09:54,758 root  INFO     152.000000 out of 236 correct
+2017-06-06 20:09:54,874 root  INFO     step_time: 0.112497, loss: nan, step perplexity: inf
+2017-06-06 20:09:54,893 root  INFO     152.000000 out of 237 correct
+2017-06-06 20:09:55,053 root  INFO     step_time: 0.118768, loss: 0.007631, step perplexity: 1.007660
+2017-06-06 20:09:55,067 root  INFO     153.000000 out of 238 correct
+2017-06-06 20:09:55,181 root  INFO     step_time: 0.110349, loss: 0.005243, step perplexity: 1.005256
+2017-06-06 20:09:55,197 root  INFO     154.000000 out of 239 correct
+2017-06-06 20:09:55,316 root  INFO     step_time: 0.115425, loss: 0.002607, step perplexity: 1.002611
+2017-06-06 20:09:55,327 root  INFO     155.000000 out of 240 correct
+2017-06-06 20:09:55,473 root  INFO     step_time: 0.119260, loss: 0.001023, step perplexity: 1.001023
+2017-06-06 20:09:55,483 root  INFO     156.000000 out of 241 correct
+2017-06-06 20:09:55,598 root  INFO     step_time: 0.106698, loss: nan, step perplexity: inf
+2017-06-06 20:09:55,619 root  INFO     156.000000 out of 242 correct
+2017-06-06 20:09:55,737 root  INFO     step_time: 0.114198, loss: 0.004863, step perplexity: 1.004874
+2017-06-06 20:09:55,748 root  INFO     157.000000 out of 243 correct
+2017-06-06 20:09:55,856 root  INFO     step_time: 0.098836, loss: 0.110790, step perplexity: 1.117161
+2017-06-06 20:09:55,872 root  INFO     158.000000 out of 244 correct
+2017-06-06 20:09:55,995 root  INFO     step_time: 0.118084, loss: 0.024897, step perplexity: 1.025210
+2017-06-06 20:09:56,043 root  INFO     159.000000 out of 245 correct
+2017-06-06 20:09:56,180 root  INFO     step_time: 0.119635, loss: nan, step perplexity: inf
+2017-06-06 20:09:56,199 root  INFO     159.000000 out of 246 correct
+2017-06-06 20:09:56,339 root  INFO     step_time: 0.124831, loss: 3.046292, step perplexity: 21.037185
+2017-06-06 20:09:56,352 root  INFO     159.000000 out of 247 correct
+2017-06-06 20:09:56,470 root  INFO     step_time: 0.114194, loss: 0.010781, step perplexity: 1.010840
+2017-06-06 20:09:56,481 root  INFO     160.000000 out of 248 correct
+2017-06-06 20:09:56,595 root  INFO     step_time: 0.110823, loss: 0.081983, step perplexity: 1.085437
+2017-06-06 20:09:56,606 root  INFO     161.000000 out of 249 correct
+2017-06-06 20:09:56,723 root  INFO     step_time: 0.113323, loss: 1.062551, step perplexity: 2.893744
+2017-06-06 20:09:56,745 root  INFO     161.000000 out of 250 correct
+2017-06-06 20:09:56,877 root  INFO     step_time: 0.115031, loss: 0.010714, step perplexity: 1.010772
+[20000, 326, 926, 931, 19, 44, 932]
+output_valid [10, 129, 103, 146, 883]
+ground_valid [20000, 129, 103, 146, 883]
+output_valid [141, 723, 285, 269, 181, 161, 162, 229, 176, 48]
+ground_valid [141, 723, 285, 269, 181, 161, 162, 229, 176, 48]
+output_valid [14, 764, 129, 290]
+ground_valid [14, 20000, 129, 290]
+output_valid [201, 221, 764, 222, 223]
+ground_valid [201, 221, 20000, 222, 223]
+output_valid [14, 789, 143, 427, 266]
+ground_valid [14, 789, 143, 427, 266]
+output_valid [9, 44, 1014, 48, 324, 14, 41]
+ground_valid [9, 44, 1014, 48, 324, 14, 41]
+output_valid [140, 103, 19, 322, 189, 205, 351, 70, 283]
+ground_valid [140, 103, 19, 322, 189, 205, 351, 70, 283]
+output_valid [27, 824, 27, 4, 4, 27]
+ground_valid [27, 20000, 27, 4, 4, 27]
+output_valid [480, 297, 365]
+ground_valid [480, 297, 365]
+output_valid [278, 178, 1027, 19, 231, 81, 594, 229, 322]
+ground_valid [278, 178, 1027, 19, 231, 81, 594, 229, 322]
+output_valid [148, 19, 69, 23, 271, 96, 4, 468, 129]
+ground_valid [148, 19, 22, 23, 271, 96, 4, 468, 20000]
+output_valid [126, 231, 129, 1027, 662]
+ground_valid [126, 231, 129, 1027, 662]
+output_valid [1282, 1282, 283, 122, 231, 129, 291, 1027, 662]
+ground_valid [1282, 1282, 283, 122, 231, 129, 291, 1027, 662]
+output_valid [161, 14, 902, 761, 665, 161, 14, 608]
+ground_valid [161, 14, 902, 761, 665, 161, 14, 608]
+output_valid [1261, 174, 89]
+ground_valid [1261, 174, 89]
+output_valid [127, 195, 63, 89]
+ground_valid [127, 195, 63, 89]
+output_valid [44, 414, 19, 451, 9, 1059, 288, 77]
+ground_valid [44, 414, 19, 451, 9, 1059, 288, 77, 20000, 1060]
+output_valid [414, 365, 750, 1191, 283, 295, 703, 644]
+ground_valid [414, 365, 750, 1191, 283, 295, 703, 644, 1192]
+output_valid [106, 134, 135, 136, 137, 138, 139, 140]
+ground_valid [106, 134, 135, 136, 137, 138, 139, 140]
+output_valid [96, 276, 1025]
+ground_valid [96, 276, 1025]
+output_valid [276, 1025, 1253, 371, 21, 77, 229, 466, 129]
+ground_valid [276, 1025, 20000, 371, 21, 77, 229, 466, 129]
+output_valid [33, 34, 86, 87]
+ground_valid [33, 34, 86, 87]
+output_valid [648, 213, 411, 332, 649, 397, 21, 19, 339]
+ground_valid [648, 213, 411, 332, 649, 397, 21, 19, 339]
+output_valid [425, 266, 52, 759, 15, 950, 140, 229]
+ground_valid [425, 266, 52, 949, 15, 950, 140, 229]
+output_valid [48, 269, 229, 42, 302, 129, 103, 146]
+ground_valid [48, 269, 229, 42, 302, 129, 103, 146]
+output_valid [1157, 105, 205, 126, 14, 187]
+ground_valid [1157, 105, 205, 226, 14, 187]
+output_valid [182, 453, 229, 144, 824, 161, 4, 711]
+ground_valid [182, 453, 229, 144, 20000, 161, 4, 711]
+output_valid [39, 351, 450, 966, 223, 1160, 157]
+ground_valid [39, 351, 450, 966, 223, 1160, 157]
+output_valid [324, 208, 621, 229, 561, 588, 281, 68]
+ground_valid [324, 208, 621, 229, 561, 588, 281, 68]
+output_valid [1185, 266, 575, 515]
+ground_valid [1185, 266, 575, 515]
+output_valid [141, 223, 769, 594, 1163, 17, 90]
+ground_valid [141, 223, 769, 48, 1163, 17, 90]
+output_valid [93, 229, 271, 323, 91, 369, 95, 229]
+ground_valid [93, 229, 271, 323, 91, 369, 95, 229, 20000, 222]
+output_valid [4, 195, 63, 4, 697]
+ground_valid [4, 195, 63, 4, 697]
+output_valid [19, 494, 451, 4, 230, 14]
+ground_valid [19, 494, 451, 4, 230, 14]
+output_valid [231, 53, 230]
+ground_valid [231, 53, 230]
+output_valid [173, 14, 129, 103]
+ground_valid [173, 14, 129, 103]
+output_valid [207, 343, 15, 329, 9, 278, 579]
+ground_valid [207, 20000, 343, 15, 141, 329, 9, 278, 579]
+output_valid [4, 303, 201]
+ground_valid [4, 303, 201]
+output_valid [234, 14, 144, 481, 1199]
+ground_valid [234, 14, 144, 481, 1199]
+output_valid [609, 833, 205, 226, 14, 244, 19, 429, 63, 430]
+ground_valid [609, 833, 205, 226, 14, 244, 19, 429, 63, 430]
+output_valid [715, 272, 244, 256, 343, 255]
+ground_valid [715, 272, 244, 20000, 343, 291]
+output_valid [10, 34, 34, 229]
+ground_valid [10, 34]
+output_valid [226, 209, 96]
+ground_valid [226, 209, 96]
+output_valid [195, 63, 89]
+ground_valid [195, 63, 89]
+output_valid [7, 759, 377, 507, 983, 285, 63, 231]
+ground_valid [7, 183, 629, 1203, 983, 285, 63, 231]
+output_valid [176, 128, 174, 1171, 622, 769, 166]
+ground_valid [176, 128, 174, 1171,2017-06-06 20:09:56,897 root  INFO     162.000000 out of 251 correct
+2017-06-06 20:09:57,019 root  INFO     step_time: 0.118379, loss: 0.172711, step perplexity: 1.188523
+2017-06-06 20:09:57,025 root  INFO     163.000000 out of 252 correct
+2017-06-06 20:09:57,137 root  INFO     step_time: 0.108289, loss: 0.004549, step perplexity: 1.004560
+2017-06-06 20:09:57,147 root  INFO     164.000000 out of 253 correct
+2017-06-06 20:09:57,247 root  INFO     step_time: 0.096940, loss: 0.031977, step perplexity: 1.032494
+2017-06-06 20:09:57,254 root  INFO     165.000000 out of 254 correct
+2017-06-06 20:09:57,372 root  INFO     step_time: 0.114688, loss: 0.042094, step perplexity: 1.042992
+2017-06-06 20:09:57,385 root  INFO     166.000000 out of 255 correct
+2017-06-06 20:09:57,496 root  INFO     step_time: 0.107614, loss: 0.394192, step perplexity: 1.483186
+2017-06-06 20:09:57,551 root  INFO     166.000000 out of 256 correct
+2017-06-06 20:09:58,395 root  INFO     step_time: 0.116933, loss: 0.177910, step perplexity: 1.194718
+2017-06-06 20:09:58,405 root  INFO     167.000000 out of 257 correct
+2017-06-06 20:09:58,514 root  INFO     step_time: 0.106397, loss: 0.079948, step perplexity: 1.083231
+2017-06-06 20:09:58,527 root  INFO     168.000000 out of 258 correct
+2017-06-06 20:09:58,657 root  INFO     step_time: 0.114861, loss: 2.218868, step perplexity: 9.196912
+2017-06-06 20:09:58,672 root  INFO     168.000000 out of 259 correct
+2017-06-06 20:09:58,788 root  INFO     step_time: 0.113522, loss: nan, step perplexity: inf
+2017-06-06 20:09:58,799 root  INFO     168.000000 out of 260 correct
+2017-06-06 20:09:58,921 root  INFO     step_time: 0.111800, loss: 0.484758, step perplexity: 1.623782
+2017-06-06 20:09:58,975 root  INFO     168.000000 out of 261 correct
+2017-06-06 20:09:59,096 root  INFO     step_time: 0.117553, loss: 0.005668, step perplexity: 1.005685
+2017-06-06 20:09:59,112 root  INFO     169.000000 out of 262 correct
+2017-06-06 20:09:59,232 root  INFO     step_time: 0.115933, loss: nan, step perplexity: inf
+2017-06-06 20:09:59,245 root  INFO     169.000000 out of 263 correct
+2017-06-06 20:09:59,365 root  INFO     step_time: 0.116598, loss: 0.039528, step perplexity: 1.040320
+2017-06-06 20:09:59,382 root  INFO     170.000000 out of 264 correct
+2017-06-06 20:09:59,500 root  INFO     step_time: 0.115146, loss: 0.177225, step perplexity: 1.193900
+2017-06-06 20:09:59,510 root  INFO     171.000000 out of 265 correct
+2017-06-06 20:09:59,631 root  INFO     step_time: 0.116922, loss: 0.080460, step perplexity: 1.083785
+2017-06-06 20:09:59,653 root  INFO     172.000000 out of 266 correct
+2017-06-06 20:09:59,782 root  INFO     step_time: 0.112861, loss: 0.021295, step perplexity: 1.021523
+2017-06-06 20:09:59,793 root  INFO     173.000000 out of 267 correct
+2017-06-06 20:09:59,914 root  INFO     step_time: 0.113401, loss: 0.000924, step perplexity: 1.000924
+2017-06-06 20:09:59,922 root  INFO     174.000000 out of 268 correct
+2017-06-06 20:10:00,036 root  INFO     step_time: 0.111163, loss: 0.188153, step perplexity: 1.207018
+2017-06-06 20:10:00,058 root  INFO     175.000000 out of 269 correct
+2017-06-06 20:10:00,173 root  INFO     step_time: 0.111015, loss: 6.684801, step perplexity: 800.151132
+2017-06-06 20:10:00,188 root  INFO     175.000000 out of 270 correct
+2017-06-06 20:10:00,308 root  INFO     step_time: 0.116340, loss: 0.009025, step perplexity: 1.009066
+2017-06-06 20:10:00,321 root  INFO     176.000000 out of 271 correct
+2017-06-06 20:10:00,492 root  INFO     step_time: 0.113071, loss: 0.098484, step perplexity: 1.103496
+2017-06-06 20:10:00,531 root  INFO     177.000000 out of 272 correct
+2017-06-06 20:10:00,640 root  INFO     step_time: 0.105064, loss: 4.071867, step perplexity: 58.666418
+2017-06-06 20:10:00,654 root  INFO     177.000000 out of 273 correct
+2017-06-06 20:10:00,792 root  INFO     step_time: 0.115723, loss: nan, step perplexity: inf
+2017-06-06 20:10:00,813 root  INFO     177.000000 out of 274 correct
+2017-06-06 20:10:00,941 root  INFO     step_time: 0.113728, loss: 0.005257, step perplexity: 1.005271
+2017-06-06 20:10:00,959 root  INFO     178.000000 out of 275 correct
+2017-06-06 20:10:01,087 root  INFO     step_time: 0.114037, loss: 0.045593, step perplexity: 1.046648
+2017-06-06 20:10:01,095 root  INFO     179.000000 out of 276 correct
+2017-06-06 20:10:01,206 root  INFO     step_time: 0.108092, loss: nan, step perplexity: inf
+2017-06-06 20:10:01,218 root  INFO     179.000000 out of 277 correct
+2017-06-06 20:10:01,337 root  INFO     step_time: 0.116030, loss: 0.006226, step perplexity: 1.006245
+2017-06-06 20:10:01,354 root  INFO     180.000000 out of 278 correct
+2017-06-06 20:10:01,470 root  INFO     step_time: 0.112694, loss: 0.011885, step perplexity: 1.011956
+2017-06-06 20:10:01,482 root  INFO     181.000000 out of 279 correct
+2017-06-06 20:10:01,606 root  INFO     step_time: 0.120020, loss: nan, step perplexity: inf
+2017-06-06 20:10:01,621 root  INFO     181.000000 out of 280 correct
+2017-06-06 20:10:01,740 root  INFO     step_time: 0.115532, loss: 0.005739, step perplexity: 1.005755
+2017-06-06 20:10:01,752 root  INFO     182.000000 out of 281 correct
+2017-06-06 20:10:01,883 root  INFO     step_time: 0.116777, loss: 0.018292, step perplexity: 1.018460
+2017-06-06 20:10:01,928 root  INFO     183.000000 out of 282 correct
+2017-06-06 20:10:02,066 root  INFO     step_time: 0.120430, loss: 0.024815, step perplexity: 1.025126
+2017-06-06 20:10:02,079 root  INFO     184.000000 out of 283 correct
+2017-06-06 20:10:02,200 root  INFO     step_time: 0.114844, loss: 0.197508, step perplexity: 1.218363
+2017-06-06 20:10:02,213 root  INFO     185.000000 out of 284 correct
+2017-06-06 20:10:02,325 root  INFO     step_time: 0.110367, loss: nan, step perplexity: inf
+2017-06-06 20:10:02,351 root  INFO     185.000000 out of 285 correct
+2017-06-06 20:10:02,483 root  INFO     step_time: 0.116357, loss: 0.005434, step perplexity: 1.005449
+2017-06-06 20:10:02,495 root  INFO     186.000000 out of 286 correct
+2017-06-06 20:10:02,605 root  INFO     step_time: 0.100875, loss: nan, step perplexity: inf
+2017-06-06 20:10:02,631 root  INFO     186.000000 out of 287 correct
+2017-06-06 20:10:02,740 root  INFO     step_time: 0.107530, loss: nan, step perplexity: inf
+2017-06-06 20:10:02,753 root  INFO     186.000000 out of 288 correct
+2017-06-06 20:10:02,872 root  INFO     step_time: 0.115539, loss: 0.361107, step perplexity: 1.434917
+2017-06-06 20:10:02,880 root  INFO     187.000000 out of 289 correct
+2017-06-06 20:10:03,023 root  INFO     step_time: 0.119040, loss: 0.004210, step perplexity: 1.004219
+2017-06-06 20:10:03,036 root  INFO     188.000000 out of 290 correct
+2017-06-06 20:10:03,155 root  INFO     step_time: 0.115410, loss: 0.006690, step perplexity: 1.006712
+2017-06-06 20:10:03,173 root  INFO     189.000000 out of 291 correct
+2017-06-06 20:10:03,288 root  INFO     step_time: 0.112648, loss: nan, step perplexity: inf
+2017-06-06 20:10:03,316 root  INFO     189.000000 out of 292 correct
+2017-06-06 20:10:03,437 root  INFO     step_time: 0.116900, loss: 2.172448, step perplexity: 8.779748
+2017-06-06 20:10:03,444 root  INFO     189.000000 out of 293 correct
+2017-06-06 20:10:03,579 root  INFO     step_time: 0.116851, loss: nan, step perplexity: inf
+2017-06-06 20:10:03,602 root  INFO     189.000000 out of 294 correct
+2017-06-06 20:10:03,738 root  INFO     step_time: 0.113667, loss: 0.016759, step perplexity: 1.016901
+2017-06-06 20:10:03,749 root  INFO     190.000000 out of 295 correct
+2017-06-06 20:10:03,864 root  INFO     step_time: 0.111210, loss: 0.024526, step perplexity: 1.024829
+2017-06-06 20:10:03,875 root  INFO     191.000000 out of 296 correct
+2017-06-06 20:10:04,010 root  INFO     step_time: 0.116576, loss: 0.015548, step perplexity: 1.015669
+2017-06-06 20:10:04,040 root  INFO     192.000000 out of 297 correct
+2017-06-06 20:10:04,151 root  INFO     step_time: 0.107002, loss: 0.203075, step perplexity: 1.225164
+2017-06-06 20:10:04,175 root  INFO     192.000000 out of 298 correct
+2017-06-06 20:10:04,310 root  INFO     step_time: 0.131378, loss: 0.025398, step perplexity: 1.025723
+2017-06-06 20:10:04,335 root  INFO     193.000000 out of 299 correct
+ 622, 769, 166]
+output_valid [343, 15]
+ground_valid [343, 15]
+output_valid [174, 796, 19, 446]
+ground_valid [174, 796, 19, 446]
+output_valid [524, 124, 39]
+ground_valid [524, 124, 39]
+output_valid [14, 509, 64, 19, 1018, 9, 14]
+ground_valid [14, 509, 64, 19, 1018, 9, 14]
+output_valid [15, 472, 208, 14, 174, 144, 1227, 1228, 777]
+ground_valid [15, 472, 208, 14, 174, 144, 1227, 1228, 777, 1183]
+output_valid [695, 208, 605, 90]
+ground_valid [695, 208, 605, 90]
+output_valid [180, 1240, 945, 346, 767, 768, 384]
+ground_valid [180, 1240, 945, 346, 767, 768, 384]
+output_valid [244, 229, 14, 129, 14, 14]
+ground_valid [244, 229, 824, 824]
+output_valid [571, 764, 129, 144, 616]
+ground_valid [571, 20000, 129, 144, 616]
+output_valid [995, 973, 174, 144, 416, 269, 231, 129]
+ground_valid [995, 973, 174, 144, 416, 269, 231, 129, 615]
+output_valid [209, 251, 89, 210, 269]
+ground_valid [209, 251, 89, 210, 269]
+output_valid [727, 264, 129, 173]
+ground_valid [727, 264, 20000, 173]
+output_valid [896, 12, 1022, 1439, 737, 39, 252, 194, 19]
+ground_valid [896, 12, 1022, 1439, 737, 39, 252, 194, 19]
+output_valid [339, 432, 1106]
+ground_valid [339, 432, 1106]
+output_valid [270, 141, 329, 9, 278, 703, 4, 881, 1115]
+ground_valid [270, 141, 329, 9, 278, 703, 4, 881, 1115]
+output_valid [44, 229, 703]
+ground_valid [44, 229, 703]
+output_valid [416, 229, 176]
+ground_valid [416, 229, 176]
+output_valid [472, 208, 14, 174, 144, 1227, 1228, 777]
+ground_valid [472, 208, 14, 174, 144, 1227, 1228, 777]
+output_valid [357, 634, 707, 269, 229]
+ground_valid [357, 707, 269, 229]
+output_valid [19, 494, 36, 468]
+ground_valid [19, 494, 36, 468]
+output_valid [875, 876, 19, 844, 42]
+ground_valid [875, 876, 19, 844, 42]
+output_valid [21, 975, 751, 824, 824]
+ground_valid [21, 975]
+output_valid [229, 283, 652, 406, 15, 74, 667, 17]
+ground_valid [229, 20000, 283, 652, 406, 15, 74, 667, 17]
+output_valid [105, 205, 14, 4, 567, 5, 176, 483]
+ground_valid [105, 205, 14, 4, 567, 5, 176, 483]
+output_valid [4, 437, 438, 138, 139]
+ground_valid [4, 437, 438, 138, 139]
+output_valid [955, 116, 498, 48]
+ground_valid [955, 116, 498, 20000]
+output_valid [19, 243, 733, 285, 63, 4]
+ground_valid [19, 243, 733, 285, 63, 4]
+output_valid [129, 17, 428, 4]
+ground_valid [129, 17, 428, 4]
+output_valid [508, 14, 469, 595, 426]
+ground_valid [508, 14, 20000, 595, 426]
+output_valid [26, 27, 28]
+ground_valid [26, 27, 28]
+output_valid [693, 464, 19, 374, 238, 374, 238, 14]
+ground_valid [693, 464, 19, 374, 238, 374, 238, 14]
+output_valid [161, 14, 608, 477]
+ground_valid [161, 14, 608, 477]
+output_valid [116, 843, 477, 15, 141, 329, 9, 278]
+ground_valid [116, 843, 477, 15, 141, 329, 9, 278]
+output_valid [24, 353, 357, 95, 229, 618, 81, 19]
+ground_valid [24, 353, 357, 95, 229, 20000, 129, 618, 81, 19]
+output_valid [182, 1404, 147, 365, 90, 242]
+ground_valid [182, 1404, 147, 365, 90, 242]
+output_valid [184, 371, 371, 210, 4, 129, 103, 703]
+ground_valid [184, 371, 371, 210, 4, 20000, 129, 103, 703]
+output_valid [4, 824, 19, 229, 377]
+ground_valid [4, 20000, 558]
+output_valid [9, 278]
+ground_valid [9, 278]
+output_valid [597, 598, 605, 48, 43]
+ground_valid [597, 598, 605, 48, 43]
+output_valid [715, 144, 534, 362, 19, 907, 874, 206, 213]
+ground_valid [715, 144, 534, 362, 19, 907, 874, 206, 213]
+output_valid [264, 322, 229, 176, 464, 917, 17]
+ground_valid [264, 322, 229, 176, 464, 917, 20000, 17]
+output_valid [283, 283]
+ground_valid [283, 324]
+output_valid [208, 270, 176]
+ground_valid [208, 270, 176, 20000]
+output_valid [223, 9, 141]
+ground_valid [223, 9, 141]
+output_valid [789, 187, 175]
+ground_valid [789, 187, 175]
+output_valid [329, 264, 14, 85, 229, 377, 4, 39, 221]
+ground_valid [329, 264, 14, 85, 229, 377, 4, 39, 221]
+output_valid [129, 662, 6, 1380, 85, 888, 1381, 141, 1317]
+ground_valid [129, 662, 6, 1380, 85, 888, 1381, 141, 1317, 285]
+output_valid [509, 769, 232, 28, 19, 68, 209, 135, 14]
+ground_valid [509, 769, 232, 28, 19, 68, 209, 135, 14]
