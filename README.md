@@ -50,3 +50,6 @@ http://blog.csdn.net/linmingan/article/details/51008830
 
 # 视频描述
 www.cs.utexas.edu/~vsub/
+
+# OCR的技术集合（attention ocr）
+https://github.com/tongpi/basicOCR
