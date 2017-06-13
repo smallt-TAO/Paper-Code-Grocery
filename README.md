@@ -55,4 +55,5 @@ www.cs.utexas.edu/~vsub/
 https://github.com/tongpi/basicOCR
 
 https://github.com/wanghaisheng/awesome-ocr
+
 https://handong1587.github.io/deep_learning/2015/10/09/ocr.html
