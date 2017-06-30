@@ -59,3 +59,6 @@ https://github.com/wanghaisheng/awesome-ocr
 https://handong1587.github.io/deep_learning/2015/10/09/ocr.html
 
 http://blog.csdn.net/u010183397/article/details/56497303
+
+# 数据结构算法与应用——C++语言描述，Sahni著，源代码和习题答案
+https://www.cise.ufl.edu/~sahni/dsaac/
