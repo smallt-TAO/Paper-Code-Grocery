@@ -64,3 +64,5 @@ http://blog.csdn.net/u010183397/article/details/56497303
 https://www.cise.ufl.edu/~sahni/dsaac/
 
 http://www.cnblogs.com/lfsblack/archive/2012/11/10/2764334.html
+
+http://www.cplusplus.com/reference/vector/vector/
