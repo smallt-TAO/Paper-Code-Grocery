@@ -62,3 +62,5 @@ http://blog.csdn.net/u010183397/article/details/56497303
 
 # 数据结构算法与应用——C++语言描述，Sahni著，源代码和习题答案
 https://www.cise.ufl.edu/~sahni/dsaac/
+
+http://www.cnblogs.com/lfsblack/archive/2012/11/10/2764334.html
