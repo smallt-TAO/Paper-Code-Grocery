@@ -68,3 +68,6 @@ http://www.cnblogs.com/lfsblack/archive/2012/11/10/2764334.html
 http://www.cplusplus.com/reference/vector/vector/
 
 http://blog.csdn.net/gogokongyin/article/details/51178378
+
+# NLP的论文博客
+http://www.wildml.com/
