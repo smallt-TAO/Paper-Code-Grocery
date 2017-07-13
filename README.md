@@ -30,6 +30,8 @@ http://blog.csdn.net/myarrow/article/details/51878004
 # GAN论文汇总，包含code
 https://github.com/zhangqianhui/AdversarialNetsPapers
 
+https://github.com/AlexiaJM/Deep-learning-with-cats
+
 # 基于deep learning的快速图像检索（Deep Learning of Binary Hash Codes for Fast Image Retrieval）
 http://blog.csdn.net/u013087984/article/details/52023671
 
