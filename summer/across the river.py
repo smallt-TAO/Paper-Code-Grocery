@@ -28,10 +28,11 @@ class Solution(object):
         return False
 
     def backtrack(self, k):  # 船准备跑第k趟
+        result = []
         if self.is_found:
-            return  # 终止所有递归
+            return result  # 终止所有递归
         if self.n - sum(s[0] for s in self.x) == 0 and self.n - sum(s[1] for s in self.x) == 0:
-            print(self.x)
+            self.show_result()
             self.is_found = True
         else:
             for state in self.get_states(k):
@@ -40,6 +41,20 @@ class Solution(object):
                     self.backtrack(k + 1)  # 深度优先
                 self.x.pop()
 
+    def show_result(self):
+        result = self.x
+        print(result)
+        counter = 1
+        for s in result:
+            if s[1] >= 0:
+                print('从左岸开船，运载{}个传教士和{}个野人到对岸'.format(s[0], s[1]))
+            else:
+                print('从右岸开船，运载{}个传教士和{}个野人到对岸'.format(-s[0], -s[1]))
+            print('现在左岸{}个传教士，{}个野人'.format(self.n - sum(s[0] for s in self.x[:counter]),
+                                            self.n - sum(s[1] for s in self.x[:counter])))
+            counter += 1
+        print('拢共{}次'.format(len(result)))
+
 if __name__ == '__main__':
-    solution = Solution(3, 2, [])
+    solution = Solution(4, 3, [])
     solution.backtrack(0)
