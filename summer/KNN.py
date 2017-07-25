@@ -22,7 +22,7 @@ def knn_classify(new_input, data_set, labels0, k):
     sorted_dist_indices = argsort(distance)
 
     class_count = {}  # define a dictionary (can be append element)
-    for i in xrange(k):
+    for i in range(k):
         # step 3: choose the min k distance
         vote_label = labels0[sorted_dist_indices[i]]
 
@@ -48,8 +48,8 @@ if __name__ == '__main__':
     testX = array([1.2, 1.0])
     k = 3
     outputLabel = knn_classify(testX, dataSet, labels, 3)
-    print "Your input is:", testX, "and classified to class: ", outputLabel
+    print("Your input is:", testX, "and classified to class: ", outputLabel)
 
     testX = array([0.1, 0.3])
     outputLabel = knn_classify(testX, dataSet, labels, 3)
-    print "Your input is:", testX, "and classified to class: ", outputLabel
+    print("Your input is:", testX, "and classified to class: ", outputLabel)
