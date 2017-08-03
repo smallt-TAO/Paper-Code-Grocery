@@ -73,3 +73,9 @@ http://blog.csdn.net/gogokongyin/article/details/51178378
 
 # NLP的论文博客
 http://www.wildml.com/
+
+# 目标检测的github
+https://github.com/argman/EAST
+
+https://pjreddie.com/darknet/yolo/
+
