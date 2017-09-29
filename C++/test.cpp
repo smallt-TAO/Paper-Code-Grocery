@@ -1,8 +1,11 @@
 #include "math.h"
+#include <sstream>
 #include <iostream>
 #include <vector>
 #include <algorithm>
 #include <stack>
+#include <string>
+#include <cstring>
 
 using namespace std;
 
@@ -28,6 +31,18 @@ void testCounterLen();
 
 void testHeap();
 
+void testVector();
+
+void maxSubVec(vector<double> vec, double &maxSub);
+
+void testMaxSubVec();
+
+void num2String(int num, string &str);
+
+void testNum2String();
+
+void testTran();
+
 int main() {
     cout << "Hello, Word!" << endl;
     /*
@@ -38,7 +53,11 @@ int main() {
     // testQuickSort();
     // testKnapSack();
     // testCounterLen();
-    testHeap();
+    // testHeap();
+    // testVector();
+    // testMaxSubVec();
+    // testNum2String();
+    testTran();
 }
 
 vector<int> genVec(int vectorLen) {
@@ -221,13 +240,123 @@ void testHeap() {
 }
 
 
+void testVector() {
+    int a[] = {3, 4, 6, 78, 23, 76};
+    vector<int> myVec(a, a + (int)(sizeof(a)/sizeof(a[0])));
+    
+    cout << "Print the vector" << endl;
+    for (int i = 0; i < myVec.size(); ++i) {
+        cout << myVec[i] << " ";
+    }
+    cout << endl;
+
+    cout << "Sort the vector" << endl;
+    sort(myVec.begin(), myVec.end());
+    for (vector<int>::iterator iter = myVec.begin(); iter != myVec.end(); ++iter) {
+        cout << *iter << " ";
+    }
+    cout << endl;
+}
 
 
+void maxSubVec(vector<double> vec, double &maxSub) {
+    double maxVec = 1;
+    double minVec = 1;
+
+    for (int i = 0; i < vec.size(); ++i) {
+        maxVec = max(maxVec * vec[i], max(vec[i], minVec * vec[i]));
+        minVec = min(minVec * vec[i], min(vec[i], maxVec * vec[i]));
+
+        maxSub = max(maxSub, maxVec);
+    }
+
+}
+
+void testMaxSubVec() {
+    double a[] = {-0.5, 0.7, 89, 43, 0.6, -0.9};
+    vector<double> myVec(a, a + (int)(sizeof(a)/sizeof(a[0])));
+
+    double result = 0.0;
+    maxSubVec(myVec, result);
+    
+    cout << result << endl;
+}
 
 
+void num2String(int num, string &str) {
+    stringstream stream;
+    stream << num;
+    str = stream.str();
+}
 
 
+void string2Num(int &num, const string str) {
+    stringstream stream(str);
+    stream >> num;
+}
 
 
+void testNum2String() {
+    int a = 12390;
+    string res = "";
+    num2String(a, res);
+    cout << res << endl;
+}
 
 
+void testTran() {
+    int num = 238974;
+    string str = to_string(num);
+    cout << str << endl;
+
+    string s = "234";
+    double d = stod(s);
+    int ss = stoi(s);
+    cout << "int num: " << ss << "double num: " << d << endl;
+
+    for (auto s : str) cout << s << " ";
+    cout << endl;
+
+    char a[] = {'H', 'e', 'K', 'H'};
+    char aa[sizeof(a)/sizeof(*a)];
+    auto ret = copy(begin(a), end(a), aa);
+
+    vector<char> vecChar;
+    for (auto s : aa) {
+        cout << s << " ";
+        vecChar.push_back(s);
+    }
+
+    cout << endl;
+    cout << *(--ret) << endl;
+    string sum = accumulate(vecChar.begin(), vecChar.end(), string(""));
+    cout << "Accumulate the vec: " << sum << endl;
+    
+    sort(vecChar.begin(), vecChar.end());
+    auto end_unique = unique(vecChar.begin(), vecChar.end());
+    vecChar.erase(end_unique, vecChar.end());
+    
+    fill(vecChar.begin(), vecChar.end(), 'A');
+    for (auto v : vecChar) cout << v << " ";
+    cout << endl;
+
+    sort(vecChar.begin(), vecChar.end());
+    for (auto v : vecChar) cout << v << " ";
+    cout << endl;
+    for_each(vecChar.begin(), vecChar.end(),
+            [](const char &s) { cout << s << " "; });
+    cout << endl;
+
+}
+
+bool isShorter(const string &s1, const string &s2) {
+    return s1.size() < s2.size();
+}
+
+
+void biggies(vector<string> &words, vector<string>::size_type sz) {
+    stable_sort(words.begin(), words.end(),
+                [](const string &a, const string &b) { return a.size() < b.size(); });
+    auto wc = find_if(words.begin(), words.end(), [sz](const string &a) { return a.size() >= sz; });
+    for_each(wc, words.end(), [](const string &s) { cout << s << " "; });
+}
