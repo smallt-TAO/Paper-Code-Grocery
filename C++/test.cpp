@@ -6,6 +6,7 @@
 #include <stack>
 #include <string>
 #include <cstring>
+#include <map>
 
 using namespace std;
 
@@ -43,6 +44,8 @@ void testNum2String();
 
 void testTran();
 
+void testMicrosoft();
+
 int main() {
     cout << "Hello, Word!" << endl;
     /*
@@ -57,7 +60,8 @@ int main() {
     // testVector();
     // testMaxSubVec();
     // testNum2String();
-    testTran();
+    // testTran();
+    testMicrosoft();
 }
 
 vector<int> genVec(int vectorLen) {
@@ -357,6 +361,52 @@ bool isShorter(const string &s1, const string &s2) {
 void biggies(vector<string> &words, vector<string>::size_type sz) {
     stable_sort(words.begin(), words.end(),
                 [](const string &a, const string &b) { return a.size() < b.size(); });
-    auto wc = find_if(words.begin(), words.end(), [sz](const string &a) { return a.size() >= sz; });
+    auto wc = find_if(words.begin(), words.end(), 
+            [sz](const string &a) { return a.size() >= sz; });
     for_each(wc, words.end(), [](const string &s) { cout << s << " "; });
+}
+
+
+void testMicrosoft() {
+    // structure the init parameter
+    vector<vector<int> > vvec(4, vector<int>(2, 0));
+    vvec[0][0] = 1;
+    vvec[0][1] = 2;
+    vvec[1][0] = 1;
+    vvec[1][1] = 3;
+    vvec[2][0] = 1;
+    vvec[2][1] = 4;
+    vvec[3][0] = 4;
+    vvec[3][1] = 5;
+
+    for (auto vv : vvec) {
+        for (auto v : vv) {
+            cout << v << " ";
+        }
+    }
+    cout << endl;
+
+    // counter the relation between number and flag.
+    map<int, string> strMap;
+    for (int i = 0; i != 6; ++i) {
+        strMap[i] = "";
+    }
+    strMap[1] = "0";
+    for_each(strMap.begin(), strMap.end(),
+            [](const pair<int, string> &pa) { cout << pa.first << " "; });
+    cout << endl;
+    int flag = 1;
+    int flagTemp = 0;
+    for (auto vv : vvec) {
+        if (vv[0] == flag) {
+            strMap[vv[1]] = strMap[vv[0]] + to_string(flagTemp++);
+        } else {
+            flag = vv[0];
+            flagTemp = 0;
+            strMap[vv[1]] = strMap[vv[0]] + to_string(flagTemp++);
+        }
+    }   
+    for_each(strMap.begin(), strMap.end(),
+            [](const pair<int, string> &pa) { cout << pa.second; });
+    cout << endl;
 }
