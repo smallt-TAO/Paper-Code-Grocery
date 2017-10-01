@@ -2,12 +2,10 @@
 
 ## How to start.
 
-'
-sh train_rsn.sh 
-'
+`sh train_rsn.sh`
 
 ## How to test the model.
 
-'
-sh test_rsn.sh
-'
+`sh test_rsn.sh`
+
+# This item is a Chinese-recognized project.
