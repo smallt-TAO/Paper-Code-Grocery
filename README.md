@@ -29,6 +29,7 @@ http://blog.csdn.net/myarrow/article/details/51878004
 
 ## GAN论文汇总，包含code
 https://github.com/zhangqianhui/AdversarialNetsPapers
+
 https://github.com/AlexiaJM/Deep-learning-with-cats
 
 ## 基于deep learning的快速图像检索（Deep Learning of Binary Hash Codes for Fast Image Retrieval）
@@ -53,16 +54,12 @@ www.cs.utexas.edu/~vsub/
 
 ## OCR的技术集合（attention ocr）
 https://github.com/tongpi/basicOCR
-
 https://github.com/wanghaisheng/awesome-ocr
-
 https://handong1587.github.io/deep_learning/2015/10/09/ocr.html
-
 http://blog.csdn.net/u010183397/article/details/56497303
 
 ## 数据结构算法与应用——C++语言描述，Sahni著，源代码和习题答案
 https://www.cise.ufl.edu/~sahni/dsaac/
-
 http://www.cnblogs.com/lfsblack/archive/2012/11/10/2764334.html
 http://www.cplusplus.com/reference/vector/vector/
 http://blog.csdn.net/gogokongyin/article/details/51178378
