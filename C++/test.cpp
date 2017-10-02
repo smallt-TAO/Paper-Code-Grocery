@@ -52,6 +52,8 @@ string hexMul(string str1, string str2);
 
 void testNetEast();
 
+void testMomenta();
+
 int main() {
     cout << "Hello, Word!" << endl;
     /*
@@ -70,7 +72,8 @@ int main() {
     // testMicrosoft();
     // string res = hexMul("1278979879", "1269962892749274265927");
     // cout << res << endl;
-    testNetEast();
+    // testNetEast();
+    testMomenta();
 
 }
 
@@ -483,3 +486,24 @@ void testNetEast() {
     }
     cout << strOut << endl;
 }
+
+
+void testMomenta() {
+    string strIn = "??***AA*??**";
+    string strOut = "";
+    bool flag = false;
+
+    for (int i = 0; i < strIn.size(); ++i) {
+        if (!flag && strIn[i] == '*') strOut.push_back(strIn[i]);
+        if (strIn[i] == '*') {
+            flag = true;
+        } else {
+            strOut.push_back(strIn[i]);
+            flag = false;
+        }
+    }
+
+    cout << strOut << endl;
+
+}
+
