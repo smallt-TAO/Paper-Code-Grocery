@@ -46,6 +46,12 @@ void testTran();
 
 void testMicrosoft();
 
+string hexAdd(string str1, string str2);
+
+string hexMul(string str1, string str2);
+
+void testNetEast();
+
 int main() {
     cout << "Hello, Word!" << endl;
     /*
@@ -61,7 +67,11 @@ int main() {
     // testMaxSubVec();
     // testNum2String();
     // testTran();
-    testMicrosoft();
+    // testMicrosoft();
+    // string res = hexMul("1278979879", "1269962892749274265927");
+    // cout << res << endl;
+    testNetEast();
+
 }
 
 vector<int> genVec(int vectorLen) {
@@ -409,4 +419,67 @@ void testMicrosoft() {
     for_each(strMap.begin(), strMap.end(),
             [](const pair<int, string> &pa) { cout << pa.second; });
     cout << endl;
+}
+
+
+string hexDi(char s) {
+    if (s - '0' < 10) {
+        return to_string(s - '0');
+    } else {
+        return to_string(s - 'A' + 10);
+    }
+}
+
+
+string hexAdd(string str1, string str2) {
+    int i = 0;
+    int c = 0;
+    reverse(str1.begin(), str1.end());
+    reverse(str2.begin(), str2.end());
+    string res = "";
+    while (i < str1.size() || i < str2.size() || c) {
+        int str1Int = i < str1.size() ? str1[i] - '0': 0;
+        int str2Int = i < str2.size() ? str2[i] - '0': 0;
+        int temp = str1Int + str2Int + c;
+        res += to_string(temp % 10);
+        c = temp / 10;
+        i++;
+    }
+    reverse(res.begin(), res.end());
+    return res;
+}
+
+
+string hexMul(string str1, string str2) {
+    reverse(str1.begin(), str1.end());
+    reverse(str2.begin(), str2.end());
+    string res = "";
+    int i = 0;
+    for (int i = 0; i < str2.size(); ++i) {
+        string temp = "";
+        int index = 0;
+        int c = 0;
+        while (c || index < str1.size()) {
+            int intTemp = (str1[index] - '0') * (str2[i] - '0');
+            temp += to_string(intTemp % 10);
+            c = intTemp / 10;
+            index++;
+        }
+        reverse(temp.begin(), temp.end());
+        temp += string(i, '0');
+        res = hexAdd(res, temp);
+    }
+    return res;
+
+}
+
+
+void testNetEast() {
+    string strIn = "AA34BBBACDDDD456272464525622BA";
+    string strOut = "";
+
+    for (auto s : strIn) {
+        strOut = hexAdd(hexMul(strOut, "16"), hexDi(s));
+    }
+    cout << strOut << endl;
 }
