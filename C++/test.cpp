@@ -54,6 +54,8 @@ void testNetEast();
 
 void testMomenta();
 
+void testSort();
+
 int main() {
     cout << "Hello, Word!" << endl;
     /*
@@ -73,8 +75,8 @@ int main() {
     // string res = hexMul("1278979879", "1269962892749274265927");
     // cout << res << endl;
     // testNetEast();
-    testMomenta();
-
+    // testMomenta();
+    testSort();
 }
 
 vector<int> genVec(int vectorLen) {
@@ -506,4 +508,32 @@ void testMomenta() {
     cout << strOut << endl;
 
 }
+
+
+void testSort() {
+    char ca[] = {'1', '2', '3', '5'};
+    int lengthChar = (int)(sizeof(ca) / sizeof(*ca));
+    // cout << lengthChar;
+    vector<int> temp;
+    vector<vector<int> > res(lengthChar, vector<int>(lengthChar));
+    
+    for (auto c : ca) temp.push_back(c - '0');
+
+    for (int i = 0; i < lengthChar; ++i) {
+        for (int j = 0; j < lengthChar; ++j) {
+            res[i][j] = temp[j];
+        }
+    }
+
+    for (auto re : res) { 
+        for (auto r : re) cout << r << " ";
+        cout << endl;
+     }
+
+}
+    
+
+
+
+
 
