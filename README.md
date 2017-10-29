@@ -72,6 +72,8 @@ http://www.cplusplus.com/reference/vector/vector/
 
 http://blog.csdn.net/gogokongyin/article/details/51178378
 
+https://github.com/gatieme/CodingInterviews
+
 ## NLP的论文博客
 http://www.wildml.com/
 
