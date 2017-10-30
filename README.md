@@ -83,3 +83,6 @@ https://pjreddie.com/darknet/yolo/
 
 ## Slim model
 https://github.com/tensorflow/tensorflow/blob/master/tensorflow/contrib/slim/README.md
+
+## bashrc
+export PS1="\[\e[37;40m\][\[\e[32;40m\]\u\[\e[37;40m\]@\h \[\e[36;40m\]\W\[\e[0m\]]\\$ " 
