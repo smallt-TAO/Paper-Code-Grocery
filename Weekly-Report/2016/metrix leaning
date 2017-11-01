@@ -1,8 +1,0 @@
-siamses network
-triple network
-
-In the development of metric learning, it is inseparable from the development of human face recognition. 
-The beginning of the face verification is used to determine whether the two images are the same person. On this basis, 
-there will be Siamese network. By means of paired training samples, 
-the training parameters are shared by the CNN neural network. 
-Paired training data include similar and dissimilar images.
