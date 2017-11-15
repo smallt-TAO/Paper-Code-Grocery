@@ -3,31 +3,34 @@ A Convolutional Network implementation example using TensorFlow library.
 '''
 
 from __future__ import print_function
-from network import network
+import network
+import utils
 
 import tensorflow as tf 
-#import mnist data
-from tensorflow.examples.tutorials.mnist import input_data
-mnist = input_data.read_data_sets("/tmp/data/", one_hot = True)
 
 # Parameters
 learning_rate = 0.001
 training_iters = 1000000
-batch_size = 128
+batch_size = 1
 display_step = 64
 checkpoint_path = 'checkpoint'
 
 # network parameters
 n_input = 784 # data input
-n_classes = 10 # mnist total classes
+n_classes = 6 # total classes
 dropout = 0.75 # dropout, probability to keep units
 
+def load_dataset():
+    image, label = utils.fake_data(batch_size)
+    return image, label
+
 def train_model():
-    x = tf.placeholder(tf.float32, [None, n_input])
+    x = tf.placeholder(tf.float32, [None, 30, 3500, 1])
     y = tf.placeholder(tf.float32, [None, n_classes])
     keep_prob = tf.placeholder(tf.float32) # dropout
 
-    pred = network(x, n_classes, keep_prob)
+    # pred = network.network(x, n_classes, keep_prob)
+    pred = network.network(x, n_classes, model="RNN")
 
     # define loss and optimizer
     cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits=pred, labels=y))
@@ -55,7 +58,8 @@ def train_model():
         step = 1
         #keep training until reach max iterations
         while step * batch_size < training_iters:
-            batch_x, batch_y = mnist.train.next_batch(batch_size)
+            # batch_x, batch_y = mnist.train.next_batch(batch_size)
+            batch_x, batch_y = load_dataset()
             #run optimization op (backprop)
             sess.run(optimizer, feed_dict={x:batch_x, y:batch_y, keep_prob:dropout})
 
