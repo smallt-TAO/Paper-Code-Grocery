@@ -21,26 +21,29 @@ def conv2d(x, W, b, strides=1):
 	x = tf.nn.bias_add(x, b)
 	return tf.nn.relu(x)
 
-def maxpool2d(x, k=2):
-# maxpool2d wrapper	
-	return tf.nn.max_pool(x, ksize=[1, k , k, 1], strides=[ 1, k, k, 1], padding='SAME')
+def maxpool2d(x, k=2, rect=False):
+    if rect:
+        return tf.nn.max_pool(x, ksize=[1, 1, k, 1], strides=[1, 1, k, 1], padding='VALID')
+    else:
+        return tf.nn.max_pool(x, ksize=[1, k, k, 1], strides=[1, k, k, 1], padding='VALID')
 
 
-def network(x, n_classes, dropout=None, model="CNN"):
-    if model == "CNN":
+def network(x, n_classes, dropout=None, model="CNN_v1"):
+    if model == "CNN_v1":
+        print("using CNN_v1 model")
         weights = {
             'wc1' : tf.Variable(tf.random_normal([5, 5, 1, 32])),
             'wc2' : tf.Variable(tf.random_normal([5, 5, 32, 32])),
-            'wc3' : tf.Variable(tf.random_normal([5, 5, 32, 64])),
-            'wd1' : tf.Variable(tf.random_normal([3*584*64, 1024])),
-            'out': tf.Variable(tf.random_normal([1024, n_classes]))
+            'wc3' : tf.Variable(tf.random_normal([5, 5, 32, 32])),
+            'wd1' : tf.Variable(tf.random_normal([3 * 437 * 32, 512])),
+            'out': tf.Variable(tf.random_normal([512, n_classes]))
         }
 
         biases = {
             'bc1' : tf.Variable(tf.random_normal([32])),
             'bc2' : tf.Variable(tf.random_normal([32])),
-            'bc3' : tf.Variable(tf.random_normal([64])),
-            'bd1' : tf.Variable(tf.random_normal([1024])),
+            'bc3' : tf.Variable(tf.random_normal([32])),
+            'bd1' : tf.Variable(tf.random_normal([512])),
             'out' : tf.Variable(tf.random_normal([n_classes]))
         }
 
@@ -65,7 +68,75 @@ def network(x, n_classes, dropout=None, model="CNN"):
         out = tf.add(tf.matmul(fc1, weights['out']), biases['out'])
         return out
 
-    if model == "RNN":
+    if model == "CNN_v2":
+        print("using CNN_v2 model")
+        weights = {
+            'wc1' : tf.Variable(tf.random_normal([5, 5, 1, 32])),
+            'wc2' : tf.Variable(tf.random_normal([5, 5, 32, 32])),
+            'wc3' : tf.Variable(tf.random_normal([5, 5, 32, 32])),
+            'wd1' : tf.Variable(tf.random_normal([3 * 145 * 32, 128])),
+            'out': tf.Variable(tf.random_normal([128, n_classes]))
+        }
+        biases = {
+            'bc1' : tf.Variable(tf.random_normal([32])),
+            'bc2' : tf.Variable(tf.random_normal([32])),
+            'bc3' : tf.Variable(tf.random_normal([32])),
+            'bd1' : tf.Variable(tf.random_normal([128])),
+            'out' : tf.Variable(tf.random_normal([n_classes]))
+        }
+
+        x = tf.reshape(x, shape = [-1, 30, 3500, 1])
+        x = maxpool2d(x, k=3, rect=True)
+        conv1 = conv2d(x , weights['wc1'], biases['bc1'])
+        conv1 = maxpool2d(conv1, k=2)
+        conv2 = conv2d(conv1, weights['wc2'], biases['bc2'])
+        conv2 = maxpool2d(conv2, k=2)
+        conv2 = conv2d(conv2, weights['wc3'], biases['bc3'])
+        conv2 = maxpool2d(conv2, k=2)
+        # fully connected layer
+        fc1 = tf.reshape(conv2, [-1, weights['wd1'].get_shape().as_list()[0]])
+        fc1 = tf.add(tf.matmul(fc1, weights['wd1']), biases['bd1'])
+        fc1 = tf.nn.relu(fc1)
+        fc1 = tf.nn.dropout(fc1, dropout)
+        out = tf.add(tf.matmul(fc1, weights['out']), biases['out'])
+        return out
+    
+    if model == "CNN_v3":
+        print("using CNN_v3 model")
+        weights = {
+            'wc1' : tf.Variable(tf.random_normal([5, 5, 1, 32])),
+            'wc2' : tf.Variable(tf.random_normal([5, 5, 32, 32])),
+            'wc3' : tf.Variable(tf.random_normal([5, 5, 32, 32])),
+            'wd1' : tf.Variable(tf.random_normal([3 * 48 * 32, 128])),
+            'out': tf.Variable(tf.random_normal([128, n_classes]))
+        }
+
+        biases = {
+            'bc1' : tf.Variable(tf.random_normal([32])),
+            'bc2' : tf.Variable(tf.random_normal([32])),
+            'bc3' : tf.Variable(tf.random_normal([32])),
+            'bd1' : tf.Variable(tf.random_normal([128])),
+            'out' : tf.Variable(tf.random_normal([n_classes]))
+        }
+
+        x = tf.reshape(x, shape = [-1, 30, 3500, 1])
+        x = maxpool2d(x, k=3, rect=True)
+        x = maxpool2d(x, k=3, rect=True)
+        conv1 = conv2d(x , weights['wc1'], biases['bc1'])
+        conv1 = maxpool2d(conv1, k=2)
+        conv2 = conv2d(conv1, weights['wc2'], biases['bc2'])
+        conv2 = maxpool2d(conv2, k=2)
+        conv2 = conv2d(conv2, weights['wc3'], biases['bc3'])
+        conv2 = maxpool2d(conv2, k=2)
+        # fully connected layer
+        fc1 = tf.reshape(conv2, [-1, weights['wd1'].get_shape().as_list()[0]])
+        fc1 = tf.add(tf.matmul(fc1, weights['wd1']), biases['bd1'])
+        fc1 = tf.nn.relu(fc1)
+        fc1 = tf.nn.dropout(fc1, dropout)
+        out = tf.add(tf.matmul(fc1, weights['out']), biases['out'])
+        return out
+
+    if model == "RNN_v1":
         n_hidden = 32
         weights = {
             'out' : tf.Variable(tf.random_normal([2 * n_hidden, n_classes]))

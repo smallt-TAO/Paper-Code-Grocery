@@ -1,36 +1,34 @@
-'''
-A Convolutional Network implementation example using TensorFlow library.
-'''
-
 from __future__ import print_function
 import network
 import utils
 
 import tensorflow as tf 
 
+tf.app.flags.DEFINE_string('model', 'CNN_v1','parameter choice of model')
+tf.app.flags.DEFINE_integer('n_classes', 6, 'number of classes')
+FLAGS = tf.app.flags.FLAGS
+
 # Parameters
 learning_rate = 0.001
-training_iters = 1000000
-batch_size = 1
-display_step = 64
-checkpoint_path = 'checkpoint'
-
-# network parameters
-n_input = 784 # data input
-n_classes = 6 # total classes
+training_iters = 10000
+batch_size = 32
+display_step = 32
 dropout = 0.75 # dropout, probability to keep units
 
 def load_dataset():
-    image, label = utils.fake_data(batch_size)
-    return image, label
+    data_all = utils.file_batch("data")
+    clip = int(0.8 * len(data_all))
+    train_list = data_all[:clip]
+    test_list = data_all[clip:]
+    return train_list, test_list
 
 def train_model():
-    x = tf.placeholder(tf.float32, [None, 30, 3500, 1])
-    y = tf.placeholder(tf.float32, [None, n_classes])
+    height, width = 30, 3500
+    x = tf.placeholder(tf.float32, [None, height, width])
+    y = tf.placeholder(tf.float32, [None, FLAGS.n_classes])
     keep_prob = tf.placeholder(tf.float32) # dropout
 
-    # pred = network.network(x, n_classes, keep_prob)
-    pred = network.network(x, n_classes, model="RNN")
+    pred = network.network(x, FLAGS.n_classes, keep_prob, model=FLAGS.model)
 
     # define loss and optimizer
     cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits=pred, labels=y))
@@ -47,36 +45,43 @@ def train_model():
     # launch the graph
     with tf.Session() as sess:
         sess.run(init)
-        checkpoint = tf.train.get_checkpoint_state(checkpoint_path)
 
-        if checkpoint:
-            saver.restore(sess, checkpoint.model_checkpoint_path)
+        try:
+            saver.restore(sess, 'checkpoint/' + FLAGS.model + '_model.ckpt')
             print("load checkpoint sucess")
-        else:
+        except:
             print("load checkpoint failed")
 
         step = 1
+        average_cost = 0.0
+        train_data, test_data = load_dataset()
+        test_image, test_label = utils.read_batch_list(test_data)
+
         #keep training until reach max iterations
-        while step * batch_size < training_iters:
+        while step < training_iters:
             # batch_x, batch_y = mnist.train.next_batch(batch_size)
-            batch_x, batch_y = load_dataset()
-            #run optimization op (backprop)
-            sess.run(optimizer, feed_dict={x:batch_x, y:batch_y, keep_prob:dropout})
+            total_batch = int(len(train_data) / batch_size)
+            for i in range(total_batch):
+                batch_x, batch_y = utils.read_batch_list(train_data[i * batch_size:(i + 1) * batch_size])
+                #run optimization op (backprop)
+                sess.run(optimizer, feed_dict={x:batch_x, y:batch_y, keep_prob:dropout})
 
-            if step % display_step == 0:
-                # calculate batch loss and accuracy
-                loss, acc = sess.run([cost,accuracy], feed_dict={x:batch_x, y:batch_y, keep_prob:1.})
-
-                print("iter", str(step*batch_size), " minibatch loss =" , "{:.6f}".format(loss) ," Training Accuracy =" ,"{:.5f}".format(acc))
+                if step % display_step == 0:
+                    # calculate batch loss and accuracy
+                    loss, acc = sess.run([cost, accuracy], feed_dict={x:batch_x, y:batch_y, keep_prob:1.})
+                    print("iter", str(step), " minibatch loss =" , "{:.6f}".format(loss) ," Training Accuracy =" ,"{:.5f}".format(acc))
+                    saver.save(sess, 'checkpoint/' + FLAGS.model + '_model.ckpt')
 
             step += 1
-
         print("optimization finished")
 
         #Calculate accuracy for 256 mnist test images
-        print ("testing accuracy:", sess.run(accuracy, feed_dict={x:mnist.test.images[:256], y:mnist.test.labels[:256], keep_prob:1.}))
+        print ("testing accuracy:", sess.run(accuracy, feed_dict={x:test_image, y:test_label, keep_prob:1.}))
 
+def main(_):
+    train_model()
 
 if __name__ == "__main__":
-    train_model()
+    tf.app.run()
+
 
