@@ -7,7 +7,7 @@ python mlp_soc_infer
 ## new build a terminal, run
 
 ```shell
-python .py
+python client.py
 ```
 ## Host = "127.0.0.1"
 ## Port = "35001"
