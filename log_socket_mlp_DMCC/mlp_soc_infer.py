@@ -17,6 +17,12 @@ logging.basicConfig(level=logging.DEBUG,
                 filename='socket_mlp.log',
                 filemode='w')
 
+console = logging.StreamHandler()
+console.setLevel(logging.INFO)
+formatter = logging.Formatter('%(name)-12s: %(levelname)-8s %(message)s')
+console.setFormatter(formatter)
+logging.getLogger('').addHandler(console)
+
 # Parameters
 current_iter = tf.Variable(0)
 training_epochs = 150000
