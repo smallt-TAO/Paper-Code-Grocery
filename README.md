@@ -86,3 +86,6 @@ https://github.com/tensorflow/tensorflow/blob/master/tensorflow/contrib/slim/REA
 
 ## bashrc
 export PS1="\[\e[37;40m\][\[\e[32;40m\]\u\[\e[37;40m\]@\h \[\e[36;40m\]\W\[\e[0m\]]\\$ " 
+
+## Overview of the gradients method
+http://ruder.io/optimizing-gradient-descent/index.html#adam
